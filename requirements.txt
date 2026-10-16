@@ -1,0 +1,5 @@
+requests
+networkx
+cvss
+packaging
+ollama

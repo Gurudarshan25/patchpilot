@@ -1,0 +1,243 @@
+[
+  {
+    "ticket": "PP-001",
+    "title": "[P1] Install update, disable spooler on Domain controller (Active Directory) (CVE-2021-34527)",
+    "cve": "CVE-2021-34527",
+    "system": "Domain controller (Active Directory)",
+    "system_id": "dc-01",
+    "priority": "P1",
+    "deadline": "fix within 48 hours",
+    "fix_hours": 2,
+    "actively_exploited_in_kev": true,
+    "used_by_ransomware": true,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 100,
+    "ai_text": {
+      "risk_summary": "This vulnerability affects the Domain Controller (Active Directory) system, which is a critical component of the network infrastructure. If exploited, it could lead to remote code execution with SYSTEM privileges, allowing attackers to install malware, view, change, or delete data, and create new accounts with full user rights.",
+      "attacker_scenario": "An attacker could exploit this vulnerability to gain full control over the Domain Controller, potentially leading to the compromise of the entire network and the theft of sensitive data. The attacker could also use this as a stepping stone to further compromise other systems.",
+      "fix_steps": [
+        "Install the security update for the Print Spooler service.",
+        "Disable the Print Spooler service to prevent unauthorized use.",
+        "Restart the affected system to apply the changes.",
+        "Verify that the Print Spooler service is disabled.",
+        "Test the system to ensure it functions as expected after the fix."
+      ],
+      "verification": "Verify that the Print Spooler service is disabled and the system is functioning correctly after the update and disable steps."
+    },
+    "guardrail_warnings": []
+  },
+  {
+    "ticket": "PP-002",
+    "title": "[P1] Apply vendor hotfix on Edge firewall (Palo Alto) (CVE-2024-3400)",
+    "cve": "CVE-2024-3400",
+    "system": "Edge firewall (Palo Alto)",
+    "system_id": "fw-edge",
+    "priority": "P1",
+    "deadline": "fix within 48 hours",
+    "fix_hours": 2,
+    "actively_exploited_in_kev": true,
+    "used_by_ransomware": true,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 100,
+    "ai_text": {
+      "risk_summary": "This vulnerability allows an unauthenticated attacker to execute arbitrary code with root privileges on the Edge firewall, which could enable them to compromise the system and gain control over sensitive data or infrastructure.",
+      "attacker_scenario": "An attacker could exploit this vulnerability to execute commands with root privileges, potentially allowing them to steal sensitive data, modify system configurations, or even take full control of the firewall.",
+      "fix_steps": [
+        "Apply the vendor-provided hotfix to the Edge firewall.",
+        "Restart the firewall to ensure the fix is applied.",
+        "Verify that the firewall is running the latest PAN-OS version.",
+        "Check the firewall logs for any suspicious activity.",
+        "Test the firewall's functionality to ensure it is operating as expected."
+      ],
+      "verification": "Verify that the firewall is running the latest PAN-OS version and monitor the logs for any suspicious activity."
+    },
+    "guardrail_warnings": []
+  },
+  {
+    "ticket": "PP-003",
+    "title": "[P1] Upgrade ActiveMQ on Message queue (ActiveMQ) (CVE-2023-46604)",
+    "cve": "CVE-2023-46604",
+    "system": "Message queue (ActiveMQ)",
+    "system_id": "mq-01",
+    "priority": "P1",
+    "deadline": "fix within 48 hours",
+    "fix_hours": 3,
+    "actively_exploited_in_kev": true,
+    "used_by_ransomware": true,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 96.0,
+    "ai_text": {
+      "risk_summary": "CVE-2023-46604 affects the Message queue (ActiveMQ) system, mq-01, which is internet-facing and a crown jewel. The vulnerability allows remote attackers to execute arbitrary shell commands, posing a significant risk to the system's security and integrity.",
+      "attacker_scenario": "An attacker could exploit this vulnerability to run arbitrary shell commands on the system, potentially gaining full control over the ActiveMQ instance and compromising the system's security.",
+      "fix_steps": [
+        "Upgrade ActiveMQ to version 5.15.16, 5.16.7, 5.17.6, or 5.18.3",
+        "Restart the ActiveMQ service to apply the changes",
+        "Verify that the ActiveMQ version is updated to the recommended version"
+      ],
+      "verification": "Verify that the ActiveMQ version is updated to the recommended version 5.15.16, 5.16.7, 5.17.6, or 5.18.3 and that the service is restarted."
+    },
+    "guardrail_warnings": []
+  },
+  {
+    "ticket": "PP-004",
+    "title": "[P1] Apply vendor patch on Partner file transfer (MOVEit) (CVE-2023-34362)",
+    "cve": "CVE-2023-34362",
+    "system": "Partner file transfer (MOVEit)",
+    "system_id": "mft-01",
+    "priority": "P1",
+    "deadline": "fix within 48 hours",
+    "fix_hours": 3,
+    "actively_exploited_in_kev": true,
+    "used_by_ransomware": true,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 100,
+    "ai_text": {
+      "risk_summary": "This vulnerability allows an attacker to gain unauthorized access to the MOVEit Transfer database, which contains sensitive information for this system. The vulnerability could lead to data theft or further exploitation of the system.",
+      "attacker_scenario": "An attacker could exploit this vulnerability to retrieve sensitive data from the database, such as credentials and configuration settings, which could be used for further attacks or data exfiltration.",
+      "fix_steps": [
+        "Apply the vendor patch provided by MOVEit.",
+        "Restart the MOVEit Transfer service to ensure the patch is applied.",
+        "Verify that the system is secure by checking for any remaining vulnerabilities.",
+        "Ensure that all users are trained on secure practices to prevent future incidents.",
+        "Monitor the system for any suspicious activity post-remediation."
+      ],
+      "verification": "Verify that the system is secure by checking for any remaining vulnerabilities and ensuring that the service is running without issues."
+    },
+    "guardrail_warnings": []
+  },
+  {
+    "ticket": "PP-005",
+    "title": "[P1] Apply vendor patch, kill sessions on Remote access VPN (Citrix NetScaler) (CVE-2023-4966)",
+    "cve": "CVE-2023-4966",
+    "system": "Remote access VPN (Citrix NetScaler)",
+    "system_id": "vpn-gw",
+    "priority": "P1",
+    "deadline": "fix within 48 hours",
+    "fix_hours": 3,
+    "actively_exploited_in_kev": true,
+    "used_by_ransomware": true,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 100,
+    "ai_text": {
+      "risk_summary": "CVE-2023-4966 affects the Remote access VPN system (system_id: vpn-gw), which is internet-facing and used by ransomware. This vulnerability allows sensitive information disclosure and opens attack paths to crown jewels, making it critical to secure immediately.",
+      "attacker_scenario": "An attacker could exploit this vulnerability to disclose sensitive information and gain unauthorized access to crown jewels, potentially leading to data breaches and ransomware attacks.",
+      "fix_steps": [
+        "Apply the vendor patch provided for CVE-2023-4966.",
+        "Kill all sessions associated with the affected system.",
+        "Ensure all security measures are in place to prevent unauthorized access.",
+        "Restart the affected system to apply the patch.",
+        "Monitor the system for any signs of unauthorized activity."
+      ],
+      "verification": "Verify that no sensitive information is disclosed and all sessions have been terminated by checking logs and session management tools."
+    },
+    "guardrail_warnings": []
+  },
+  {
+    "ticket": "PP-006",
+    "title": "[P1] Apply vendor update on Remote access VPN (Citrix NetScaler) (CVE-2023-6549)",
+    "cve": "CVE-2023-6549",
+    "system": "Remote access VPN (Citrix NetScaler)",
+    "system_id": "vpn-gw",
+    "priority": "P1",
+    "deadline": "fix within 48 hours",
+    "fix_hours": 1,
+    "actively_exploited_in_kev": true,
+    "used_by_ransomware": false,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 100,
+    "ai_text": {
+      "risk_summary": "This CVE impacts the Remote access VPN (Citrix NetScaler) system, which is internet-facing and considered a crown jewel. The vulnerability allows for Denial of Service and Out-Of-Bounds Memory Read attacks, which could lead to unauthorized access and data breaches.",
+      "attacker_scenario": "An attacker could exploit this vulnerability to cause a Denial of Service, rendering the system unavailable. Additionally, an attacker might be able to read sensitive data stored in memory, compromising the confidentiality of the system.",
+      "fix_steps": [
+        "Apply the vendor-provided update to the NetScaler ADC and NetScaler Gateway.",
+        "Ensure all systems are patched within the 48-hour deadline.",
+        "Restart the affected systems to apply the update.",
+        "Monitor the systems for any signs of the vulnerability being exploited.",
+        "Verify the fix by checking for the presence of the update in the system logs."
+      ],
+      "verification": "Verify the presence of the vendor update in the system logs to ensure the fix was applied successfully."
+    },
+    "guardrail_warnings": []
+  },
+  {
+    "ticket": "PP-007",
+    "title": "[P2] Upgrade OpenSSH on Remote access VPN (Citrix NetScaler) (CVE-2024-6387)",
+    "cve": "CVE-2024-6387",
+    "system": "Remote access VPN (Citrix NetScaler)",
+    "system_id": "vpn-gw",
+    "priority": "P2",
+    "deadline": "fix within 7 days",
+    "fix_hours": 1,
+    "actively_exploited_in_kev": false,
+    "used_by_ransomware": false,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 96.2,
+    "ai_text": {
+      "risk_summary": "CVE-2024-6387 affects the Remote access VPN (Citrix NetScaler) system, which is internet-facing and critical to the organization's security posture. The race condition vulnerability in OpenSSH's server (sshd) allows an attacker to potentially exploit authentication failures, compromising the system's integrity and confidentiality.",
+      "attacker_scenario": "An attacker could exploit this vulnerability by sending a crafted signal to the sshd process, causing it to handle signals in an unsafe manner. This could lead to unauthorized access or denial of service, as the system might fail to authenticate users within the specified time frame.",
+      "fix_steps": [
+        "Upgrade the OpenSSH server to the latest version.",
+        "Apply any available security patches and updates.",
+        "Restart the OpenSSH server service to ensure the new version is in use.",
+        "Verify that the OpenSSH version is up to date.",
+        "Test the system to ensure it continues to function as expected."
+      ],
+      "verification": "Verify that the OpenSSH version is up to date and that the system is functioning correctly after the upgrade."
+    },
+    "guardrail_warnings": []
+  },
+  {
+    "ticket": "PP-008",
+    "title": "[P1] Apply vendor update on Remote access VPN (Citrix NetScaler) (CVE-2023-6548)",
+    "cve": "CVE-2023-6548",
+    "system": "Remote access VPN (Citrix NetScaler)",
+    "system_id": "vpn-gw",
+    "priority": "P1",
+    "deadline": "fix within 48 hours",
+    "fix_hours": 1,
+    "actively_exploited_in_kev": true,
+    "used_by_ransomware": false,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 96.0,
+    "ai_text": {
+      "risk_summary": "This vulnerability allows an attacker to execute arbitrary code with low privileges on the management interface of the Citrix NetScaler VPN gateway, which is critical for this system as it opens a direct path to the management interface and can be exploited to gain unauthorized control over the system.",
+      "attacker_scenario": "An attacker with access to the NetScaler's management interface could exploit this vulnerability to execute malicious code, potentially leading to unauthorized access to sensitive data or system takeover, compromising the integrity and confidentiality of the system.",
+      "fix_steps": [
+        "Apply the latest vendor update to the NetScaler gateway.",
+        "Ensure all patches are applied and the system is rebooted.",
+        "Verify that the management interface is secure and only accessible to authorized personnel.",
+        "Monitor the system for any suspicious activity after the update.",
+        "Restart the NetScaler gateway service to apply the update."
+      ],
+      "verification": "Verify that the management interface is secure and only accessible to authorized personnel after the update."
+    },
+    "guardrail_warnings": []
+  },
+  {
+    "ticket": "PP-009",
+    "title": "[P1] Install Exchange security update on Mail server (Exchange) (CVE-2021-26855)",
+    "cve": "CVE-2021-26855",
+    "system": "Mail server (Exchange)",
+    "system_id": "mail-01",
+    "priority": "P1",
+    "deadline": "fix within 48 hours",
+    "fix_hours": 4,
+    "actively_exploited_in_kev": true,
+    "used_by_ransomware": true,
+    "opens_attack_path_to_crown_jewels": true,
+    "risk_score_out_of_100": 100,
+    "ai_text": {
+      "risk_summary": "CVE-2021-26855 affects the Mail server (mail-01) which is internet-facing and a crown jewel system. This vulnerability allows attackers to execute arbitrary code, which could lead to full control of the system and potential data exfiltration.",
+      "attacker_scenario": "An attacker could exploit this vulnerability to gain full control over the Mail server (mail-01), allowing them to read, modify, or delete any email and associated data, as well as execute arbitrary code with SYSTEM privileges.",
+      "fix_steps": [
+        "Install the Exchange security update",
+        "Restart the Exchange Server service",
+        "Verify that the update is installed",
+        "Restart the affected services",
+        "Test the system for any issues"
+      ],
+      "verification": "Verify that the Exchange security update is installed and the system is functioning as expected"
+    },
+    "guardrail_warnings": []
+  }
+]

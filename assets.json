@@ -1,0 +1,43 @@
+[
+  {"id": "fw-edge", "name": "Edge firewall (Palo Alto)", "type": "network", "criticality": 5, "internet_facing": true, "crown_jewel": false, "data": "none",
+   "connects_to": ["vpn-gw", "web-shop", "mail-01", "mft-01"]},
+
+  {"id": "vpn-gw", "name": "Remote access VPN (Citrix NetScaler)", "type": "network", "criticality": 5, "internet_facing": true, "crown_jewel": false, "data": "credentials",
+   "connects_to": ["dc-01", "app-01", "wiki", "laptop-fleet"]},
+
+  {"id": "web-shop", "name": "Customer tracking portal", "type": "server", "criticality": 4, "internet_facing": true, "crown_jewel": false, "data": "customer",
+   "connects_to": ["app-01"]},
+
+  {"id": "mail-01", "name": "Mail server (Exchange)", "type": "server", "criticality": 4, "internet_facing": true, "crown_jewel": false, "data": "internal",
+   "connects_to": ["dc-01"]},
+
+  {"id": "mft-01", "name": "Partner file transfer (MOVEit)", "type": "server", "criticality": 4, "internet_facing": true, "crown_jewel": false, "data": "customer",
+   "connects_to": ["db-customers", "backup-01"]},
+
+  {"id": "app-01", "name": "Order service (Java)", "type": "server", "criticality": 4, "internet_facing": false, "crown_jewel": false, "data": "customer",
+   "connects_to": ["mq-01", "db-customers"]},
+
+  {"id": "mq-01", "name": "Message queue (ActiveMQ)", "type": "server", "criticality": 3, "internet_facing": false, "crown_jewel": false, "data": "internal",
+   "connects_to": ["db-customers"]},
+
+  {"id": "db-customers", "name": "Customer database", "type": "database", "criticality": 5, "internet_facing": false, "crown_jewel": true, "data": "customer",
+   "connects_to": ["backup-01"]},
+
+  {"id": "dc-01", "name": "Domain controller (Active Directory)", "type": "server", "criticality": 5, "internet_facing": false, "crown_jewel": true, "data": "credentials",
+   "connects_to": ["db-customers", "backup-01", "laptop-fleet", "wiki", "legacy-scan"]},
+
+  {"id": "backup-01", "name": "Backup server", "type": "server", "criticality": 5, "internet_facing": false, "crown_jewel": true, "data": "customer",
+   "connects_to": []},
+
+  {"id": "wiki", "name": "Internal wiki (Confluence)", "type": "server", "criticality": 2, "internet_facing": false, "crown_jewel": false, "data": "internal",
+   "connects_to": []},
+
+  {"id": "laptop-fleet", "name": "Employee laptops (Windows)", "type": "endpoint", "criticality": 3, "internet_facing": true, "crown_jewel": false, "data": "internal",
+   "connects_to": ["dc-01", "wiki", "mail-01"]},
+
+  {"id": "legacy-scan", "name": "Warehouse scanner PC (old Windows)", "type": "endpoint", "criticality": 2, "internet_facing": false, "crown_jewel": false, "data": "none",
+   "connects_to": ["dc-01"]},
+
+  {"id": "dev-server", "name": "Developer test server (Linux)", "type": "server", "criticality": 1, "internet_facing": false, "crown_jewel": false, "data": "none",
+   "connects_to": ["app-01"]}
+]

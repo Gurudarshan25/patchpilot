@@ -1,0 +1,898 @@
+[
+  {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-3400",
+    "software": "PAN-OS GlobalProtect",
+    "fix": "Apply vendor hotfix",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "vpn-gw",
+    "cve": "CVE-2023-4966",
+    "software": "Citrix NetScaler",
+    "fix": "Apply vendor patch, kill sessions",
+    "fix_hours": 3,
+    "source": "headline"
+  },
+  {
+    "asset": "vpn-gw",
+    "cve": "CVE-2024-6387",
+    "software": "OpenSSH",
+    "fix": "Upgrade OpenSSH",
+    "fix_hours": 1,
+    "source": "headline"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2021-41773",
+    "software": "Apache HTTP Server 2.4.49",
+    "fix": "Upgrade to 2.4.51+",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2023-44487",
+    "software": "HTTP/2 stack",
+    "fix": "Upgrade web server",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2022-22965",
+    "software": "Spring Framework",
+    "fix": "Upgrade Spring to 5.3.18+",
+    "fix_hours": 4,
+    "source": "headline"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2023-50164",
+    "software": "Apache Struts",
+    "fix": "Upgrade Struts",
+    "fix_hours": 4,
+    "source": "headline"
+  },
+  {
+    "asset": "mail-01",
+    "cve": "CVE-2021-26855",
+    "software": "Microsoft Exchange",
+    "fix": "Install Exchange security update",
+    "fix_hours": 4,
+    "source": "headline"
+  },
+  {
+    "asset": "mail-01",
+    "cve": "CVE-2021-34473",
+    "software": "Microsoft Exchange",
+    "fix": "Install Exchange security update",
+    "fix_hours": 4,
+    "source": "headline"
+  },
+  {
+    "asset": "mft-01",
+    "cve": "CVE-2023-34362",
+    "software": "MOVEit Transfer",
+    "fix": "Apply vendor patch",
+    "fix_hours": 3,
+    "source": "headline"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2021-44228",
+    "software": "Apache Log4j",
+    "fix": "Upgrade Log4j to 2.17.1+",
+    "fix_hours": 6,
+    "source": "headline"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2022-42889",
+    "software": "Apache Commons Text",
+    "fix": "Upgrade to 1.10.0",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2023-38545",
+    "software": "curl",
+    "fix": "Upgrade curl to 8.4.0+",
+    "fix_hours": 1,
+    "source": "headline"
+  },
+  {
+    "asset": "mq-01",
+    "cve": "CVE-2023-46604",
+    "software": "Apache ActiveMQ",
+    "fix": "Upgrade ActiveMQ",
+    "fix_hours": 3,
+    "source": "headline"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-6387",
+    "software": "OpenSSH",
+    "fix": "Upgrade OpenSSH",
+    "fix_hours": 1,
+    "source": "headline"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2022-3602",
+    "software": "OpenSSL",
+    "fix": "Upgrade OpenSSL to 3.0.7+",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2021-3156",
+    "software": "sudo",
+    "fix": "Upgrade sudo",
+    "fix_hours": 1,
+    "source": "headline"
+  },
+  {
+    "asset": "dc-01",
+    "cve": "CVE-2020-1472",
+    "software": "Windows Netlogon",
+    "fix": "Install Windows update",
+    "fix_hours": 3,
+    "source": "headline"
+  },
+  {
+    "asset": "dc-01",
+    "cve": "CVE-2021-34527",
+    "software": "Windows Print Spooler",
+    "fix": "Install update, disable spooler",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "backup-01",
+    "cve": "CVE-2021-4034",
+    "software": "polkit (pkexec)",
+    "fix": "Upgrade polkit",
+    "fix_hours": 1,
+    "source": "headline"
+  },
+  {
+    "asset": "backup-01",
+    "cve": "CVE-2022-0847",
+    "software": "Linux kernel",
+    "fix": "Upgrade kernel, reboot",
+    "fix_hours": 3,
+    "source": "headline"
+  },
+  {
+    "asset": "wiki",
+    "cve": "CVE-2022-26134",
+    "software": "Atlassian Confluence",
+    "fix": "Upgrade Confluence",
+    "fix_hours": 4,
+    "source": "headline"
+  },
+  {
+    "asset": "wiki",
+    "cve": "CVE-2023-22518",
+    "software": "Atlassian Confluence",
+    "fix": "Upgrade Confluence",
+    "fix_hours": 4,
+    "source": "headline"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2023-4863",
+    "software": "Chrome (libwebp)",
+    "fix": "Push browser update",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2023-23397",
+    "software": "Microsoft Outlook",
+    "fix": "Push Office update",
+    "fix_hours": 3,
+    "source": "headline"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2022-30190",
+    "software": "Windows MSDT",
+    "fix": "Install Windows update",
+    "fix_hours": 3,
+    "source": "headline"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2023-21716",
+    "software": "Microsoft Word",
+    "fix": "Push Office update",
+    "fix_hours": 3,
+    "source": "headline"
+  },
+  {
+    "asset": "legacy-scan",
+    "cve": "CVE-2019-0708",
+    "software": "Windows RDP",
+    "fix": "Patch or disable RDP",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "legacy-scan",
+    "cve": "CVE-2017-0144",
+    "software": "Windows SMBv1",
+    "fix": "Disable SMBv1, patch",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2021-44228",
+    "software": "Apache Log4j",
+    "fix": "Upgrade Log4j to 2.17.1+",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2023-0286",
+    "software": "OpenSSL",
+    "fix": "Upgrade OpenSSL",
+    "fix_hours": 1,
+    "source": "headline"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2023-32233",
+    "software": "Linux kernel netfilter",
+    "fix": "Upgrade kernel, reboot",
+    "fix_hours": 2,
+    "source": "headline"
+  },
+  {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-3386",
+    "software": "PAN-OS",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-0008",
+    "software": "PAN-OS",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-0007",
+    "software": "PAN-OS",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-0011",
+    "software": "PAN-OS",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-0010",
+    "software": "PAN-OS",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-3384",
+    "software": "PAN-OS",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "vpn-gw",
+    "cve": "CVE-2023-6548",
+    "software": "NetScaler",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "vpn-gw",
+    "cve": "CVE-2023-6549",
+    "software": "NetScaler",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2023-49250",
+    "software": "Apache HTTP Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2024-1521",
+    "software": "Apache HTTP Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2024-24795",
+    "software": "Apache HTTP Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2023-29055",
+    "software": "Apache HTTP Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2024-23452",
+    "software": "Apache HTTP Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2024-24814",
+    "software": "Apache HTTP Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2023-47458",
+    "software": "Spring Framework",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2024-22259",
+    "software": "Spring Framework",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "web-shop",
+    "cve": "CVE-2024-22233",
+    "software": "Spring Framework",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "mail-01",
+    "cve": "CVE-2024-21410",
+    "software": "Microsoft Exchange",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "mail-01",
+    "cve": "CVE-2024-26198",
+    "software": "Microsoft Exchange",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2024-23672",
+    "software": "Apache Tomcat",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2024-21733",
+    "software": "Apache Tomcat",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2024-24549",
+    "software": "Apache Tomcat",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2024-0853",
+    "software": "curl",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2024-2004",
+    "software": "curl",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2023-49931",
+    "software": "curl",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2024-3101",
+    "software": "curl",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2023-49930",
+    "software": "curl",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "app-01",
+    "cve": "CVE-2023-49932",
+    "software": "curl",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-24574",
+    "software": "PostgreSQL",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-22208",
+    "software": "PostgreSQL",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-27289",
+    "software": "PostgreSQL",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-2338",
+    "software": "PostgreSQL",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-29955",
+    "software": "PostgreSQL",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-28105",
+    "software": "PostgreSQL",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-0727",
+    "software": "OpenSSL",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2023-51787",
+    "software": "OpenSSL",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-2511",
+    "software": "OpenSSL",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2023-6129",
+    "software": "OpenSSL",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2023-6237",
+    "software": "OpenSSL",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "db-customers",
+    "cve": "CVE-2024-0394",
+    "software": "OpenSSL",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "dc-01",
+    "cve": "CVE-2023-52296",
+    "software": "Windows Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "dc-01",
+    "cve": "CVE-2024-22318",
+    "software": "Windows Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "dc-01",
+    "cve": "CVE-2024-26239",
+    "software": "Windows Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "dc-01",
+    "cve": "CVE-2024-3384",
+    "software": "Windows Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "dc-01",
+    "cve": "CVE-2024-26224",
+    "software": "Windows Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "dc-01",
+    "cve": "CVE-2023-4550",
+    "software": "Windows Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "backup-01",
+    "cve": "CVE-2021-47040",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "backup-01",
+    "cve": "CVE-2023-52438",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "backup-01",
+    "cve": "CVE-2021-46980",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "backup-01",
+    "cve": "CVE-2022-48663",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "backup-01",
+    "cve": "CVE-2023-52628",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "backup-01",
+    "cve": "CVE-2024-26924",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "wiki",
+    "cve": "CVE-2024-21673",
+    "software": "Confluence",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "wiki",
+    "cve": "CVE-2023-22527",
+    "software": "Confluence",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "wiki",
+    "cve": "CVE-2024-21672",
+    "software": "Confluence",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "wiki",
+    "cve": "CVE-2024-21674",
+    "software": "Confluence",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "wiki",
+    "cve": "CVE-2024-23735",
+    "software": "Confluence",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "wiki",
+    "cve": "CVE-2023-22512",
+    "software": "Confluence",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-1673",
+    "software": "Google Chrome",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-0813",
+    "software": "Google Chrome",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-3844",
+    "software": "Google Chrome",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-3841",
+    "software": "Google Chrome",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-0807",
+    "software": "Google Chrome",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-0518",
+    "software": "Google Chrome",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-26199",
+    "software": "Microsoft Office",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-20673",
+    "software": "Microsoft Office",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-21384",
+    "software": "Microsoft Office",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "laptop-fleet",
+    "cve": "CVE-2024-20677",
+    "software": "Microsoft Office",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2021-47195",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2021-47039",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2021-47216",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2024-26721",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2023-52512",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2022-48626",
+    "software": "Linux kernel",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2024-25723",
+    "software": "Python",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2024-32481",
+    "software": "Python",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2024-23752",
+    "software": "Python",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2024-32880",
+    "software": "Python",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2024-21669",
+    "software": "Python",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background"
+  },
+  {
+    "asset": "dev-server",
+    "cve": "CVE-2024-26725",
+    "software": "Python",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background"
+  }
+]
