@@ -15,7 +15,7 @@
       "fixes": 7,
       "kev": 2,
       "max_score": 84.0,
-      "risk_total": 457.6
+      "risk_total": 457.7
     },
     {
       "component": "pillow",
@@ -25,7 +25,7 @@
       "fixes": 42,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 2196.5
+      "risk_total": 2197.1
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.4,
-      "risk_total": 2235.1
+      "risk_total": 2235.4
     },
     {
       "component": "jackson-databind",
@@ -75,7 +75,7 @@
       "fixes": 14,
       "kev": 0,
       "max_score": 70.0,
-      "risk_total": 601.1
+      "risk_total": 601.2
     },
     {
       "component": "lodash",
@@ -85,7 +85,7 @@
       "fixes": 4,
       "kev": 0,
       "max_score": 67.6,
-      "risk_total": 255.8
+      "risk_total": 255.9
     },
     {
       "component": "werkzeug",
@@ -95,7 +95,7 @@
       "fixes": 10,
       "kev": 0,
       "max_score": 65.0,
-      "risk_total": 493.7
+      "risk_total": 493.8
     },
     {
       "component": "urllib3",
@@ -105,7 +105,7 @@
       "fixes": 11,
       "kev": 0,
       "max_score": 64.9,
-      "risk_total": 549.7
+      "risk_total": 549.8
     },
     {
       "component": "requests",
@@ -115,7 +115,7 @@
       "fixes": 4,
       "kev": 0,
       "max_score": 61.7,
-      "risk_total": 174.4
+      "risk_total": 174.6
     },
     {
       "component": "jinja2",
@@ -125,7 +125,7 @@
       "fixes": 5,
       "kev": 0,
       "max_score": 60.8,
-      "risk_total": 248.4
+      "risk_total": 248.5
     },
     {
       "component": "flask",
@@ -525,7 +525,7 @@
       "fixed_in": "2.9.10.4",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.04613,
+      "epss": 0.04575,
       "score": 70.6,
       "priority": "P3",
       "breakdown": {
@@ -592,10 +592,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.08028,
-      "score": 69.7,
+      "score": 69.8,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 33.1,
+        "exploitation": 33.2,
         "severity": 17.6,
         "asset_value": 12,
         "exposure": 7
@@ -869,28 +869,6 @@
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
-      "id": "CVE-2020-14060",
-      "osv_id": "GHSA-j823-4qch-3rgm",
-      "summary": "Deserialization of untrusted data in Jackson Databind",
-      "cvss": 8.1,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.9.10.5",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.08607,
-      "score": 68.5,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 33.3,
-        "severity": 16.2,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
       "id": "CVE-2020-14062",
       "osv_id": "GHSA-c265-37vj-cwcc",
       "summary": "Deserialization of untrusted data in Jackson Databind",
@@ -900,6 +878,28 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.08108,
+      "score": 68.4,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 33.2,
+        "severity": 16.2,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
+      "id": "CVE-2020-14060",
+      "osv_id": "GHSA-j823-4qch-3rgm",
+      "summary": "Deserialization of untrusted data in Jackson Databind",
+      "cvss": 8.1,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.9.10.5",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.08537,
       "score": 68.4,
       "priority": "P3",
       "breakdown": {
@@ -965,7 +965,7 @@
       "fixed_in": "2.9.10.6",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.0758,
+      "epss": 0.07552,
       "score": 68.3,
       "priority": "P3",
       "breakdown": {
@@ -1031,7 +1031,7 @@
       "fixed_in": "2.9.10.7",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.1726,
+      "epss": 0.17714,
       "score": 68.0,
       "priority": "P3",
       "breakdown": {
@@ -1185,7 +1185,7 @@
       "fixed_in": "2.9.10.4",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.0578,
+      "epss": 0.05733,
       "score": 67.7,
       "priority": "P3",
       "breakdown": {
@@ -1383,7 +1383,7 @@
       "fixed_in": "2.9.10.5",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.04549,
+      "epss": 0.04511,
       "score": 67.2,
       "priority": "P3",
       "breakdown": {
@@ -1548,28 +1548,6 @@
       }
     },
     {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
-      "id": "CVE-2020-11619",
-      "osv_id": "GHSA-27xj-rqx5-2255",
-      "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
-      "cvss": 8.1,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.9.10.4",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.03714,
-      "score": 66.6,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 31.4,
-        "severity": 16.2,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -1587,6 +1565,28 @@
       "breakdown": {
         "exploitation": 29.3,
         "severity": 18.2,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
+      "id": "CVE-2020-11619",
+      "osv_id": "GHSA-27xj-rqx5-2255",
+      "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+      "cvss": 8.1,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.9.10.4",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.03683,
+      "score": 66.5,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 31.3,
+        "severity": 16.2,
         "asset_value": 12,
         "exposure": 7
       }
@@ -1978,10 +1978,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.02501,
-      "score": 63.5,
+      "score": 63.6,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 29.5,
+        "exploitation": 29.6,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2000,10 +2000,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.02417,
-      "score": 63.3,
+      "score": 63.4,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 29.3,
+        "exploitation": 29.4,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2032,6 +2032,28 @@
       }
     },
     {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2021-28677",
+      "osv_id": "GHSA-q5hq-fp76-qmrc",
+      "summary": "Uncontrolled Resource Consumption in Pillow",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "8.2.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.02338,
+      "score": 63.2,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 29.2,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "django",
       "ecosystem": "PyPI",
       "installed": "3.2.0",
@@ -2049,28 +2071,6 @@
       "breakdown": {
         "exploitation": 29.5,
         "severity": 14.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2021-28677",
-      "osv_id": "GHSA-q5hq-fp76-qmrc",
-      "summary": "Uncontrolled Resource Consumption in Pillow",
-      "cvss": 7.5,
-      "attack_vector": "NETWORK",
-      "fixed_in": "8.2.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.02338,
-      "score": 63.1,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 29.1,
-        "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
       }
@@ -2352,10 +2352,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.0185,
-      "score": 59.5,
+      "score": 59.6,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 27.5,
+        "exploitation": 27.6,
         "severity": 13.0,
         "asset_value": 12,
         "exposure": 7
@@ -2484,10 +2484,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01296,
-      "score": 58.4,
+      "score": 58.5,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 24.4,
+        "exploitation": 24.5,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2594,10 +2594,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00883,
-      "score": 57.0,
+      "score": 57.1,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 20.4,
+        "exploitation": 20.5,
         "severity": 17.6,
         "asset_value": 12,
         "exposure": 7
@@ -3264,6 +3264,28 @@
       }
     },
     {
+      "component": "log4j-core",
+      "ecosystem": "Maven",
+      "installed": "2.14.1",
+      "id": "CVE-2026-34477",
+      "osv_id": "GHSA-6hg6-v5c8-fphq",
+      "summary": "Apache Log4j Core: `verifyHostName` attribute silently ignored in TLS configuration",
+      "cvss": 6.3,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.25.4",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00502,
+      "score": 46.2,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 14.6,
+        "severity": 12.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -3308,28 +3330,6 @@
       }
     },
     {
-      "component": "log4j-core",
-      "ecosystem": "Maven",
-      "installed": "2.14.1",
-      "id": "CVE-2026-34477",
-      "osv_id": "GHSA-6hg6-v5c8-fphq",
-      "summary": "Apache Log4j Core: `verifyHostName` attribute silently ignored in TLS configuration",
-      "cvss": 6.3,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.25.4",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00502,
-      "score": 46.1,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 14.5,
-        "severity": 12.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "django",
       "ecosystem": "PyPI",
       "installed": "3.2.0",
@@ -3352,6 +3352,28 @@
       }
     },
     {
+      "component": "django",
+      "ecosystem": "PyPI",
+      "installed": "3.2.0",
+      "id": "CVE-2024-45231",
+      "osv_id": "GHSA-rrqc-c2jx-6jgv",
+      "summary": "Django allows enumeration of user e-mail addresses",
+      "cvss": 3.7,
+      "attack_vector": "NETWORK",
+      "fixed_in": "4.2.16",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00788,
+      "score": 45.8,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 19.4,
+        "severity": 7.4,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -3369,28 +3391,6 @@
       "breakdown": {
         "exploitation": 11.8,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2024-45231",
-      "osv_id": "GHSA-rrqc-c2jx-6jgv",
-      "summary": "Django allows enumeration of user e-mail addresses",
-      "cvss": 3.7,
-      "attack_vector": "NETWORK",
-      "fixed_in": "4.2.16",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00788,
-      "score": 45.7,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 19.3,
-        "severity": 7.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3452,10 +3452,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00385,
-      "score": 44.8,
+      "score": 44.9,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 10.8,
+        "exploitation": 10.9,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -3474,10 +3474,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00385,
-      "score": 44.8,
+      "score": 44.9,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 10.8,
+        "exploitation": 10.9,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -3496,10 +3496,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00385,
-      "score": 44.8,
+      "score": 44.9,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 10.8,
+        "exploitation": 10.9,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -3584,10 +3584,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00475,
-      "score": 43.4,
+      "score": 43.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 13.8,
+        "exploitation": 13.9,
         "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
@@ -3628,10 +3628,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00443,
-      "score": 42.5,
+      "score": 42.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 12.9,
+        "exploitation": 13.0,
         "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
@@ -3694,10 +3694,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00309,
-      "score": 40.5,
+      "score": 40.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 7.7,
+        "exploitation": 7.8,
         "severity": 13.8,
         "asset_value": 12,
         "exposure": 7
@@ -3716,10 +3716,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00507,
-      "score": 40.4,
+      "score": 40.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 14.6,
+        "exploitation": 14.7,
         "severity": 10.8,
         "asset_value": 12,
         "exposure": 3
@@ -3804,10 +3804,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00544,
-      "score": 38.9,
+      "score": 39.0,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.5,
+        "exploitation": 15.6,
         "severity": 8.4,
         "asset_value": 12,
         "exposure": 3
@@ -4002,10 +4002,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.0034,
-      "score": 35.2,
+      "score": 35.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 9.0,
+        "exploitation": 9.1,
         "severity": 11.2,
         "asset_value": 12,
         "exposure": 3
@@ -4178,10 +4178,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00185,
-      "score": 26.4,
+      "score": 26.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 2.6,
+        "exploitation": 2.7,
         "severity": 8.8,
         "asset_value": 12,
         "exposure": 3
