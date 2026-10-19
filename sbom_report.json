@@ -25,7 +25,7 @@
       "fixes": 42,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 2197.1
+      "risk_total": 2197.6
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.4,
-      "risk_total": 2235.4
+      "risk_total": 2235.6
     },
     {
       "component": "jackson-databind",
@@ -45,7 +45,7 @@
       "fixes": 49,
       "kev": 0,
       "max_score": 72.9,
-      "risk_total": 3198.1
+      "risk_total": 3198.2
     },
     {
       "component": "pyyaml",
@@ -75,7 +75,7 @@
       "fixes": 14,
       "kev": 0,
       "max_score": 70.0,
-      "risk_total": 601.2
+      "risk_total": 601.3
     },
     {
       "component": "lodash",
@@ -85,7 +85,7 @@
       "fixes": 4,
       "kev": 0,
       "max_score": 67.6,
-      "risk_total": 255.9
+      "risk_total": 255.8
     },
     {
       "component": "werkzeug",
@@ -105,7 +105,7 @@
       "fixes": 11,
       "kev": 0,
       "max_score": 64.9,
-      "risk_total": 549.8
+      "risk_total": 550.7
     },
     {
       "component": "requests",
@@ -125,7 +125,7 @@
       "fixes": 5,
       "kev": 0,
       "max_score": 60.8,
-      "risk_total": 248.5
+      "risk_total": 248.6
     },
     {
       "component": "flask",
@@ -869,6 +869,28 @@
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
+      "id": "CVE-2020-14060",
+      "osv_id": "GHSA-j823-4qch-3rgm",
+      "summary": "Deserialization of untrusted data in Jackson Databind",
+      "cvss": 8.1,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.9.10.5",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.08537,
+      "score": 68.5,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 33.3,
+        "severity": 16.2,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
       "id": "CVE-2020-14062",
       "osv_id": "GHSA-c265-37vj-cwcc",
       "summary": "Deserialization of untrusted data in Jackson Databind",
@@ -891,28 +913,6 @@
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
-      "id": "CVE-2020-14060",
-      "osv_id": "GHSA-j823-4qch-3rgm",
-      "summary": "Deserialization of untrusted data in Jackson Databind",
-      "cvss": 8.1,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.9.10.5",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.08537,
-      "score": 68.4,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 33.2,
-        "severity": 16.2,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
       "id": "CVE-2020-36184",
       "osv_id": "GHSA-m6x4-97wx-4q27",
       "summary": "Unsafe Deserialization in jackson-databind",
@@ -921,7 +921,7 @@
       "fixed_in": "2.9.10.8",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.08356,
+      "epss": 0.08288,
       "score": 68.4,
       "priority": "P3",
       "breakdown": {
@@ -1846,10 +1846,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.0318,
-      "score": 64.7,
+      "score": 64.8,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 30.7,
+        "exploitation": 30.8,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -1956,10 +1956,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01391,
-      "score": 63.7,
+      "score": 63.8,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 25.1,
+        "exploitation": 25.2,
         "severity": 19.6,
         "asset_value": 12,
         "exposure": 7
@@ -2351,11 +2351,11 @@
       "fixed_in": "4.18.0",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.0185,
-      "score": 59.6,
+      "epss": 0.01823,
+      "score": 59.5,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 27.6,
+        "exploitation": 27.5,
         "severity": 13.0,
         "asset_value": 12,
         "exposure": 7
@@ -2616,10 +2616,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01131,
-      "score": 57.0,
+      "score": 57.1,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 23.0,
+        "exploitation": 23.1,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2638,10 +2638,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01118,
-      "score": 56.9,
+      "score": 57.0,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 22.9,
+        "exploitation": 23.0,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2792,10 +2792,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01519,
-      "score": 55.5,
+      "score": 55.6,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 25.9,
+        "exploitation": 26.0,
         "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
@@ -3078,10 +3078,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00445,
-      "score": 48.4,
+      "score": 48.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 13.0,
+        "exploitation": 13.1,
         "severity": 16.4,
         "asset_value": 12,
         "exposure": 7
@@ -3144,10 +3144,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00956,
-      "score": 47.2,
+      "score": 47.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 21.2,
+        "exploitation": 21.3,
         "severity": 11.0,
         "asset_value": 12,
         "exposure": 3
@@ -3254,10 +3254,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00421,
-      "score": 46.2,
+      "score": 46.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 12.2,
+        "exploitation": 12.3,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -3408,10 +3408,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00522,
-      "score": 45.6,
+      "score": 45.7,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.0,
+        "exploitation": 15.1,
         "severity": 15.6,
         "asset_value": 12,
         "exposure": 3
@@ -3726,6 +3726,28 @@
       }
     },
     {
+      "component": "urllib3",
+      "ecosystem": "PyPI",
+      "installed": "1.26.4",
+      "id": "CVE-2023-45803",
+      "osv_id": "GHSA-g4mx-q9vg-27p4",
+      "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+      "cvss": 4.2,
+      "attack_vector": null,
+      "fixed_in": "1.26.18",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00593,
+      "score": 39.9,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.5,
+        "severity": 8.4,
+        "asset_value": 12,
+        "exposure": 3
+      }
+    },
+    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -3789,28 +3811,6 @@
         "severity": 12.2,
         "asset_value": 12,
         "exposure": 7
-      }
-    },
-    {
-      "component": "urllib3",
-      "ecosystem": "PyPI",
-      "installed": "1.26.4",
-      "id": "CVE-2023-45803",
-      "osv_id": "GHSA-g4mx-q9vg-27p4",
-      "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
-      "cvss": 4.2,
-      "attack_vector": null,
-      "fixed_in": "1.26.18",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00544,
-      "score": 39.0,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 15.6,
-        "severity": 8.4,
-        "asset_value": 12,
-        "exposure": 3
       }
     },
     {

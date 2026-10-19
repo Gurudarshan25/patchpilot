@@ -1922,7 +1922,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "dc-01|CVE-2023-52296",
+        "key": "laptop-fleet|CVE-2024-3841",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 54,
@@ -1932,7 +1932,7 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "laptop-fleet|CVE-2024-3841",
+        "key": "dc-01|CVE-2023-52296",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 54,
