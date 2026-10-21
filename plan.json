@@ -149,7 +149,7 @@
         30.9,
         43.7,
         52.7,
-        61.0,
+        60.9,
         71.0,
         77.5,
         87.8,
@@ -262,10 +262,10 @@
           "wiki|CVE-2024-21674",
           "fw-edge|CVE-2024-0007",
           "dc-01|CVE-2024-26239",
-          "laptop-fleet|CVE-2024-3841"
+          "dc-01|CVE-2023-52296"
         ],
         [
-          "dc-01|CVE-2023-52296",
+          "laptop-fleet|CVE-2024-3841",
           "fw-edge|CVE-2024-0010",
           "fw-edge|CVE-2024-3386",
           "dev-server|CVE-2024-32880",
@@ -421,10 +421,10 @@
           "wiki|CVE-2024-21674",
           "fw-edge|CVE-2024-0007",
           "dc-01|CVE-2024-26239",
-          "laptop-fleet|CVE-2024-3841"
+          "dc-01|CVE-2023-52296"
         ],
         [
-          "dc-01|CVE-2023-52296",
+          "laptop-fleet|CVE-2024-3841",
           "fw-edge|CVE-2024-0010",
           "fw-edge|CVE-2024-3386",
           "dev-server|CVE-2024-32880",
@@ -546,8 +546,8 @@
         ],
         [
           "web-shop|CVE-2023-29055",
-          "mq-01|CVE-2023-46604",
           "web-shop|CVE-2023-47458",
+          "mq-01|CVE-2023-46604",
           "db-customers|CVE-2024-27289",
           "dev-server|CVE-2024-25723",
           "laptop-fleet|CVE-2023-21716",
@@ -562,8 +562,8 @@
           "dc-01|CVE-2023-4550",
           "wiki|CVE-2024-21672",
           "dev-server|CVE-2023-32233",
-          "laptop-fleet|CVE-2024-3841",
-          "dc-01|CVE-2023-52296"
+          "dc-01|CVE-2023-52296",
+          "laptop-fleet|CVE-2024-3841"
         ],
         [
           "app-01|CVE-2024-2004",
@@ -735,8 +735,8 @@
           "dc-01|CVE-2023-4550",
           "wiki|CVE-2024-21672",
           "dev-server|CVE-2023-32233",
-          "laptop-fleet|CVE-2024-3841",
-          "dc-01|CVE-2023-52296"
+          "dc-01|CVE-2023-52296",
+          "laptop-fleet|CVE-2024-3841"
         ],
         [
           "app-01|CVE-2024-2004",
