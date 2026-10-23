@@ -435,31 +435,6 @@
       ]
     },
     {
-      "id": "CVE-2021-44906",
-      "affects": [
-        {
-          "ref": "pkg:npm/minimist@1.2.0"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44906"
-      },
-      "ratings": [
-        {
-          "score": 9.8,
-          "method": "other"
-        }
-      ]
-    },
-    {
       "id": "CVE-2020-9546",
       "affects": [
         {
@@ -476,6 +451,31 @@
       "source": {
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-9546"
+      },
+      "ratings": [
+        {
+          "score": 9.8,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2021-44906",
+      "affects": [
+        {
+          "ref": "pkg:npm/minimist@1.2.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-44906"
       },
       "ratings": [
         {
@@ -2785,31 +2785,6 @@
       ]
     },
     {
-      "id": "CVE-2024-24680",
-      "affects": [
-        {
-          "ref": "pkg:pypi/django@3.2.0"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-24680"
-      },
-      "ratings": [
-        {
-          "score": 5.9,
-          "method": "other"
-        }
-      ]
-    },
-    {
       "id": "CVE-2024-27351",
       "affects": [
         {
@@ -2830,6 +2805,31 @@
       "ratings": [
         {
           "score": 5.3,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2024-24680",
+      "affects": [
+        {
+          "ref": "pkg:pypi/django@3.2.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-24680"
+      },
+      "ratings": [
+        {
+          "score": 5.9,
           "method": "other"
         }
       ]
@@ -3210,6 +3210,31 @@
       ]
     },
     {
+      "id": "CVE-2024-49766",
+      "affects": [
+        {
+          "ref": "pkg:pypi/werkzeug@1.0.1"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49766"
+      },
+      "ratings": [
+        {
+          "score": 6.3,
+          "method": "other"
+        }
+      ]
+    },
+    {
       "id": "CVE-2024-37891",
       "affects": [
         {
@@ -3235,10 +3260,10 @@
       ]
     },
     {
-      "id": "CVE-2024-49766",
+      "id": "CVE-2025-68161",
       "affects": [
         {
-          "ref": "pkg:pypi/werkzeug@1.0.1"
+          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
         }
       ],
       "analysis": {
@@ -3250,7 +3275,7 @@
       },
       "source": {
         "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49766"
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68161"
       },
       "ratings": [
         {
@@ -3280,31 +3305,6 @@
       "ratings": [
         {
           "score": 8.3,
-          "method": "other"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2025-68161",
-      "affects": [
-        {
-          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-68161"
-      },
-      "ratings": [
-        {
-          "score": 6.3,
           "method": "other"
         }
       ]
@@ -3504,6 +3504,31 @@
       }
     },
     {
+      "id": "CVE-2026-96640",
+      "affects": [
+        {
+          "ref": "pkg:pypi/pillow@8.1.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96640"
+      },
+      "ratings": [
+        {
+          "score": 8.2,
+          "method": "other"
+        }
+      ]
+    },
+    {
       "id": "CVE-2021-28675",
       "affects": [
         {
@@ -3654,31 +3679,6 @@
       ]
     },
     {
-      "id": "CVE-2026-34477",
-      "affects": [
-        {
-          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34477"
-      },
-      "ratings": [
-        {
-          "score": 6.3,
-          "method": "other"
-        }
-      ]
-    },
-    {
       "id": "CVE-2026-54060",
       "affects": [
         {
@@ -3724,6 +3724,31 @@
       "ratings": [
         {
           "score": 7.5,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-34477",
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34477"
+      },
+      "ratings": [
+        {
+          "score": 6.3,
           "method": "other"
         }
       ]
@@ -4379,6 +4404,81 @@
       ]
     },
     {
+      "id": "CVE-2026-96642",
+      "affects": [
+        {
+          "ref": "pkg:pypi/pillow@8.1.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96642"
+      },
+      "ratings": [
+        {
+          "score": 7.1,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-96644",
+      "affects": [
+        {
+          "ref": "pkg:pypi/pillow@8.1.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96644"
+      },
+      "ratings": [
+        {
+          "score": 7.1,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-96637",
+      "affects": [
+        {
+          "ref": "pkg:pypi/pillow@8.1.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96637"
+      },
+      "ratings": [
+        {
+          "score": 7.1,
+          "method": "other"
+        }
+      ]
+    },
+    {
       "id": "CVE-2026-102598",
       "affects": [
         {
@@ -4673,6 +4773,56 @@
       ]
     },
     {
+      "id": "CVE-2026-96641",
+      "affects": [
+        {
+          "ref": "pkg:pypi/pillow@8.1.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96641"
+      },
+      "ratings": [
+        {
+          "score": 6.5,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-96636",
+      "affects": [
+        {
+          "ref": "pkg:pypi/pillow@8.1.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96636"
+      },
+      "ratings": [
+        {
+          "score": 6.5,
+          "method": "other"
+        }
+      ]
+    },
+    {
       "id": "CVE-2026-44431",
       "affects": [
         {
@@ -4693,6 +4843,31 @@
       "ratings": [
         {
           "score": 5.3,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-27205",
+      "affects": [
+        {
+          "ref": "pkg:pypi/flask@1.1.2"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27205"
+      },
+      "ratings": [
+        {
+          "score": 2.3,
           "method": "other"
         }
       ]
@@ -4793,31 +4968,6 @@
       "ratings": [
         {
           "score": 3.1,
-          "method": "other"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2026-27205",
-      "affects": [
-        {
-          "ref": "pkg:pypi/flask@1.1.2"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27205"
-      },
-      "ratings": [
-        {
-          "score": 2.3,
           "method": "other"
         }
       ]
