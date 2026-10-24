@@ -250,8 +250,8 @@
           "backup-01|CVE-2024-26924",
           "fw-edge|CVE-2024-0008",
           "db-customers|CVE-2024-2338",
-          "backup-01|CVE-2023-52628",
-          "wiki|CVE-2024-21673"
+          "wiki|CVE-2024-21673",
+          "backup-01|CVE-2023-52628"
         ],
         [
           "db-customers|CVE-2023-51787",
@@ -260,8 +260,8 @@
           "wiki|CVE-2024-21672",
           "dev-server|CVE-2023-32233",
           "wiki|CVE-2024-21674",
-          "fw-edge|CVE-2024-0007",
           "dc-01|CVE-2024-26239",
+          "fw-edge|CVE-2024-0007",
           "dc-01|CVE-2023-52296"
         ],
         [
@@ -409,8 +409,8 @@
           "backup-01|CVE-2024-26924",
           "fw-edge|CVE-2024-0008",
           "db-customers|CVE-2024-2338",
-          "backup-01|CVE-2023-52628",
-          "wiki|CVE-2024-21673"
+          "wiki|CVE-2024-21673",
+          "backup-01|CVE-2023-52628"
         ],
         [
           "db-customers|CVE-2023-51787",
@@ -419,8 +419,8 @@
           "wiki|CVE-2024-21672",
           "dev-server|CVE-2023-32233",
           "wiki|CVE-2024-21674",
-          "fw-edge|CVE-2024-0007",
           "dc-01|CVE-2024-26239",
+          "fw-edge|CVE-2024-0007",
           "dc-01|CVE-2023-52296"
         ],
         [
@@ -524,8 +524,8 @@
         [
           "laptop-fleet|CVE-2023-4863",
           "dev-server|CVE-2024-21669",
-          "db-customers|CVE-2022-3602",
           "backup-01|CVE-2023-52438",
+          "db-customers|CVE-2022-3602",
           "app-01|CVE-2023-49932",
           "app-01|CVE-2022-42889",
           "app-01|CVE-2024-24549",
@@ -557,8 +557,8 @@
         [
           "db-customers|CVE-2024-2511",
           "db-customers|CVE-2024-2338",
-          "backup-01|CVE-2023-52628",
           "wiki|CVE-2024-21673",
+          "backup-01|CVE-2023-52628",
           "dc-01|CVE-2023-4550",
           "wiki|CVE-2024-21672",
           "dev-server|CVE-2023-32233",
@@ -708,8 +708,8 @@
           "dc-01|CVE-2024-22318",
           "fw-edge|CVE-2024-0011",
           "dev-server|CVE-2024-21669",
-          "db-customers|CVE-2022-3602",
           "backup-01|CVE-2023-52438",
+          "db-customers|CVE-2022-3602",
           "app-01|CVE-2023-49932",
           "app-01|CVE-2022-42889",
           "app-01|CVE-2024-24549",
@@ -730,8 +730,8 @@
         [
           "db-customers|CVE-2024-2511",
           "db-customers|CVE-2024-2338",
-          "backup-01|CVE-2023-52628",
           "wiki|CVE-2024-21673",
+          "backup-01|CVE-2023-52628",
           "dc-01|CVE-2023-4550",
           "wiki|CVE-2024-21672",
           "dev-server|CVE-2023-32233",

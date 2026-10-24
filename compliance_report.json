@@ -1692,16 +1692,6 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "db-customers|CVE-2022-3602",
-        "priority": "P2",
-        "in_kev": false,
-        "fixed_on_day": 38,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-11-08",
-        "deadline_date": "2026-10-08"
-      },
-      {
         "key": "backup-01|CVE-2023-52438",
         "priority": "P4",
         "in_kev": false,
@@ -1710,6 +1700,16 @@
         "late": false,
         "fix_date": "2026-11-08",
         "deadline_date": "2026-12-30"
+      },
+      {
+        "key": "db-customers|CVE-2022-3602",
+        "priority": "P2",
+        "in_kev": false,
+        "fixed_on_day": 38,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-11-08",
+        "deadline_date": "2026-10-08"
       },
       {
         "key": "app-01|CVE-2023-49932",
@@ -1872,7 +1872,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "backup-01|CVE-2023-52628",
+        "key": "wiki|CVE-2024-21673",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 50,
@@ -1882,7 +1882,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "wiki|CVE-2024-21673",
+        "key": "backup-01|CVE-2023-52628",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 51,
@@ -2256,7 +2256,7 @@
   "cra_count": 3,
   "vex_states": {
     "exploitable": 3,
-    "in_triage": 214,
+    "in_triage": 215,
     "not_affected": 1
   }
 }
