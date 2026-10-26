@@ -881,13 +881,13 @@
       },
       {
         "key": "laptop-fleet|CVE-2024-3841",
-        "priority": "P4",
+        "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 65,
-        "deadline_day": 90,
-        "late": false,
+        "deadline_day": 30,
+        "late": true,
         "fix_date": "2026-12-05",
-        "deadline_date": "2026-12-30"
+        "deadline_date": "2026-10-31"
       },
       {
         "key": "wiki|CVE-2024-23735",
@@ -1031,13 +1031,13 @@
       },
       {
         "key": "dc-01|CVE-2023-52296",
-        "priority": "P4",
+        "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 75,
-        "deadline_day": 90,
-        "late": false,
+        "deadline_day": 30,
+        "late": true,
         "fix_date": "2026-12-15",
-        "deadline_date": "2026-12-30"
+        "deadline_date": "2026-10-31"
       },
       {
         "key": "fw-edge|CVE-2024-3386",
@@ -1682,7 +1682,7 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "dc-01|CVE-2024-22318",
+        "key": "fw-edge|CVE-2024-0011",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 38,
@@ -1692,7 +1692,7 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "fw-edge|CVE-2024-0011",
+        "key": "dc-01|CVE-2024-22318",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 39,
@@ -1872,7 +1872,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "wiki|CVE-2024-21673",
+        "key": "backup-01|CVE-2023-52628",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 50,
@@ -1882,7 +1882,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "backup-01|CVE-2023-52628",
+        "key": "wiki|CVE-2024-21673",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 51,
@@ -1923,23 +1923,23 @@
       },
       {
         "key": "dc-01|CVE-2023-52296",
-        "priority": "P4",
+        "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 54,
-        "deadline_day": 90,
-        "late": false,
+        "deadline_day": 30,
+        "late": true,
         "fix_date": "2026-11-24",
-        "deadline_date": "2026-12-30"
+        "deadline_date": "2026-10-31"
       },
       {
         "key": "laptop-fleet|CVE-2024-3841",
-        "priority": "P4",
+        "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 54,
-        "deadline_day": 90,
-        "late": false,
+        "deadline_day": 30,
+        "late": true,
         "fix_date": "2026-11-24",
-        "deadline_date": "2026-12-30"
+        "deadline_date": "2026-10-31"
       },
       {
         "key": "app-01|CVE-2024-2004",
@@ -2022,6 +2022,16 @@
         "deadline_date": "2026-12-30"
       },
       {
+        "key": "dev-server|CVE-2021-47216",
+        "priority": "P4",
+        "in_kev": false,
+        "fixed_on_day": 61,
+        "deadline_day": 90,
+        "late": false,
+        "fix_date": "2026-12-01",
+        "deadline_date": "2026-12-30"
+      },
+      {
         "key": "db-customers|CVE-2024-0727",
         "priority": "P3",
         "in_kev": false,
@@ -2030,16 +2040,6 @@
         "late": true,
         "fix_date": "2026-12-02",
         "deadline_date": "2026-10-31"
-      },
-      {
-        "key": "dev-server|CVE-2021-47216",
-        "priority": "P4",
-        "in_kev": false,
-        "fixed_on_day": 62,
-        "deadline_day": 90,
-        "late": false,
-        "fix_date": "2026-12-02",
-        "deadline_date": "2026-12-30"
       },
       {
         "key": "dev-server|CVE-2023-52512",
@@ -2122,7 +2122,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "wiki|CVE-2024-21674",
+        "key": "fw-edge|CVE-2024-0007",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 70,
@@ -2132,7 +2132,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "fw-edge|CVE-2024-0007",
+        "key": "wiki|CVE-2024-21674",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 72,

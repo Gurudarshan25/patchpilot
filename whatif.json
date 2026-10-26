@@ -3,13 +3,13 @@
     "hours_per_week": 20,
     "kev_late": 25,
     "p1_late": 15,
-    "all_late": 78
+    "all_late": 80
   },
   {
     "hours_per_week": 30,
     "kev_late": 24,
     "p1_late": 14,
-    "all_late": 52
+    "all_late": 54
   },
   {
     "hours_per_week": 40,
