@@ -244,7 +244,7 @@
     "priority": "P1",
     "deadline": "fix within 48 hours",
     "cvss": 9.8,
-    "epss": 0.12561,
+    "epss": 0.12661,
     "in_kev": true,
     "ransomware": false,
     "rank": 10

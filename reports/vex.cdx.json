@@ -1660,6 +1660,31 @@
       ]
     },
     {
+      "id": "CVE-2020-10650",
+      "affects": [
+        {
+          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-10650"
+      },
+      "ratings": [
+        {
+          "score": 8.1,
+          "method": "other"
+        }
+      ]
+    },
+    {
       "id": "CVE-2021-33571",
       "affects": [
         {
@@ -1705,31 +1730,6 @@
       "ratings": [
         {
           "score": 7.5,
-          "method": "other"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2020-10650",
-      "affects": [
-        {
-          "ref": "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.9.10"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-10650"
-      },
-      "ratings": [
-        {
-          "score": 8.1,
           "method": "other"
         }
       ]
@@ -2735,6 +2735,31 @@
       ]
     },
     {
+      "id": "CVE-2023-46136",
+      "affects": [
+        {
+          "ref": "pkg:pypi/werkzeug@1.0.1"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46136"
+      },
+      "ratings": [
+        {
+          "score": 7.5,
+          "method": "other"
+        }
+      ]
+    },
+    {
       "id": "CVE-2023-30861",
       "affects": [
         {
@@ -2955,31 +2980,6 @@
       "ratings": [
         {
           "score": 5.5,
-          "method": "other"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2023-46136",
-      "affects": [
-        {
-          "ref": "pkg:pypi/werkzeug@1.0.1"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46136"
-      },
-      "ratings": [
-        {
-          "score": 7.5,
           "method": "other"
         }
       ]
@@ -3855,6 +3855,31 @@
       "ratings": [
         {
           "score": 7.5,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2026-34479",
+      "affects": [
+        {
+          "ref": "pkg:maven/org.apache.logging.log4j/log4j-core@2.14.1"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34479"
+      },
+      "ratings": [
+        {
+          "score": 6.9,
           "method": "other"
         }
       ]

@@ -12,10 +12,10 @@
       "ecosystem": "Maven",
       "installed": "2.14.1",
       "upgrade_to": "2.25.4",
-      "fixes": 7,
+      "fixes": 8,
       "kev": 2,
       "max_score": 84.0,
-      "risk_total": 458.3
+      "risk_total": 506.8
     },
     {
       "component": "pillow",
@@ -25,7 +25,7 @@
       "fixes": 70,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 3567.9
+      "risk_total": 3568.2
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.4,
-      "risk_total": 2230.3
+      "risk_total": 2230.4
     },
     {
       "component": "jackson-databind",
@@ -45,7 +45,7 @@
       "fixes": 50,
       "kev": 0,
       "max_score": 72.9,
-      "risk_total": 3245.8
+      "risk_total": 3246.0
     },
     {
       "component": "pyyaml",
@@ -95,7 +95,7 @@
       "fixes": 10,
       "kev": 0,
       "max_score": 65.1,
-      "risk_total": 497.5
+      "risk_total": 499.5
     },
     {
       "component": "urllib3",
@@ -1592,6 +1592,28 @@
       }
     },
     {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
+      "id": "CVE-2020-10650",
+      "osv_id": "GHSA-rpr3-cw39-3pxh",
+      "summary": "jackson-databind vulnerable to unsafe deserialization",
+      "cvss": 8.1,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.9.10.4",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.036,
+      "score": 66.5,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 31.3,
+        "severity": 16.2,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "django",
       "ecosystem": "PyPI",
       "installed": "3.2.0",
@@ -1631,28 +1653,6 @@
       "breakdown": {
         "exploitation": 32.4,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
-      "id": "CVE-2020-10650",
-      "osv_id": "GHSA-rpr3-cw39-3pxh",
-      "summary": "jackson-databind vulnerable to unsafe deserialization",
-      "cvss": 8.1,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.9.10.4",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.03471,
-      "score": 66.3,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 31.1,
-        "severity": 16.2,
         "asset_value": 12,
         "exposure": 7
       }
@@ -1956,10 +1956,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01391,
-      "score": 63.8,
+      "score": 63.9,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 25.2,
+        "exploitation": 25.3,
         "severity": 19.6,
         "asset_value": 12,
         "exposure": 7
@@ -2308,10 +2308,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01064,
-      "score": 59.9,
+      "score": 60.0,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 22.5,
+        "exploitation": 22.6,
         "severity": 18.4,
         "asset_value": 12,
         "exposure": 7
@@ -2538,6 +2538,28 @@
       }
     },
     {
+      "component": "werkzeug",
+      "ecosystem": "PyPI",
+      "installed": "1.0.1",
+      "id": "CVE-2023-46136",
+      "osv_id": "PYSEC-2023-221",
+      "summary": "",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.3.8",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.01288,
+      "score": 58.5,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 24.5,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "flask",
       "ecosystem": "PyPI",
       "installed": "1.1.2",
@@ -2733,28 +2755,6 @@
         "severity": 11.0,
         "asset_value": 12,
         "exposure": 3
-      }
-    },
-    {
-      "component": "werkzeug",
-      "ecosystem": "PyPI",
-      "installed": "1.0.1",
-      "id": "CVE-2023-46136",
-      "osv_id": "PYSEC-2023-221",
-      "summary": "",
-      "cvss": 7.5,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.3.8",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.01072,
-      "score": 56.6,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 22.6,
-        "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
       }
     },
     {
@@ -3254,10 +3254,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00515,
-      "score": 50.6,
+      "score": 50.7,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.2,
+        "exploitation": 15.3,
         "severity": 16.4,
         "asset_value": 12,
         "exposure": 7
@@ -3528,6 +3528,28 @@
       }
     },
     {
+      "component": "log4j-core",
+      "ecosystem": "Maven",
+      "installed": "2.14.1",
+      "id": "CVE-2026-34479",
+      "osv_id": "GHSA-h383-gmxw-35v2",
+      "summary": "Apache Log4j 1 to Log4j 2 bridge: silent log event loss in Log4j1XmlLayout due to unescaped XML 1.0 forbidden characters",
+      "cvss": 6.9,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.25.4",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00535,
+      "score": 48.5,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 15.7,
+        "severity": 13.8,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "werkzeug",
       "ecosystem": "PyPI",
       "installed": "1.0.1",
@@ -3716,10 +3738,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00511,
-      "score": 46.7,
+      "score": 46.8,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.1,
+        "exploitation": 15.2,
         "severity": 12.6,
         "asset_value": 12,
         "exposure": 7
@@ -3760,10 +3782,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00418,
-      "score": 46.5,
+      "score": 46.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 12.5,
+        "exploitation": 12.6,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
