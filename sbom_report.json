@@ -15,7 +15,7 @@
       "fixes": 8,
       "kev": 2,
       "max_score": 84.0,
-      "risk_total": 506.9
+      "risk_total": 507.0
     },
     {
       "component": "pillow",
@@ -25,7 +25,7 @@
       "fixes": 69,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 3540.9
+      "risk_total": 3571.3
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.4,
-      "risk_total": 2230.4
+      "risk_total": 2232.2
     },
     {
       "component": "jackson-databind",
@@ -45,7 +45,7 @@
       "fixes": 50,
       "kev": 0,
       "max_score": 72.9,
-      "risk_total": 3246.5
+      "risk_total": 3246.8
     },
     {
       "component": "pyyaml",
@@ -75,7 +75,7 @@
       "fixes": 14,
       "kev": 0,
       "max_score": 70.1,
-      "risk_total": 602.7
+      "risk_total": 602.9
     },
     {
       "component": "lodash",
@@ -95,7 +95,7 @@
       "fixes": 10,
       "kev": 0,
       "max_score": 65.1,
-      "risk_total": 499.8
+      "risk_total": 499.9
     },
     {
       "component": "urllib3",
@@ -105,7 +105,7 @@
       "fixes": 11,
       "kev": 0,
       "max_score": 64.9,
-      "risk_total": 553.4
+      "risk_total": 553.6
     },
     {
       "component": "requests",
@@ -125,7 +125,7 @@
       "fixes": 5,
       "kev": 0,
       "max_score": 60.9,
-      "risk_total": 249.8
+      "risk_total": 250.0
     },
     {
       "component": "flask",
@@ -135,7 +135,7 @@
       "fixes": 2,
       "kev": 0,
       "max_score": 58.3,
-      "risk_total": 93.8
+      "risk_total": 93.9
     }
   ],
   "findings": [
@@ -272,28 +272,6 @@
       }
     },
     {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2022-28346",
-      "osv_id": "GHSA-2gwj-7jmv-h26r",
-      "summary": "SQL Injection in Django",
-      "cvss": 9.8,
-      "attack_vector": "NETWORK",
-      "fixed_in": "3.2.13",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.18661,
-      "score": 72.6,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 34.0,
-        "severity": 19.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
@@ -306,6 +284,28 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.18921,
+      "score": 72.7,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 34.1,
+        "severity": 19.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "django",
+      "ecosystem": "PyPI",
+      "installed": "3.2.0",
+      "id": "CVE-2022-28346",
+      "osv_id": "GHSA-2gwj-7jmv-h26r",
+      "summary": "SQL Injection in Django",
+      "cvss": 9.8,
+      "attack_vector": "NETWORK",
+      "fixed_in": "3.2.13",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.18661,
       "score": 72.6,
       "priority": "P3",
       "breakdown": {
@@ -1045,6 +1045,50 @@
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
+      "id": "CVE-2020-10968",
+      "osv_id": "GHSA-rf6r-2c4q-2vwg",
+      "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+      "cvss": 8.8,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.9.10.4",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.03656,
+      "score": 68.0,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 31.4,
+        "severity": 17.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2021-25289",
+      "osv_id": "GHSA-57h3-9rgr-c24m",
+      "summary": "Out of bounds write in Pillow",
+      "cvss": 9.8,
+      "attack_vector": "NETWORK",
+      "fixed_in": "8.1.1",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.02345,
+      "score": 67.9,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 29.3,
+        "severity": 19.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
       "id": "CVE-2020-11112",
       "osv_id": "GHSA-58pp-9c76-5625",
       "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
@@ -1067,15 +1111,15 @@
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
-      "id": "CVE-2020-10968",
-      "osv_id": "GHSA-rf6r-2c4q-2vwg",
+      "id": "CVE-2020-10969",
+      "osv_id": "GHSA-758m-v56v-grj4",
       "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
       "cvss": 8.8,
       "attack_vector": "NETWORK",
       "fixed_in": "2.9.10.4",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.03656,
+      "epss": 0.0356,
       "score": 67.9,
       "priority": "P3",
       "breakdown": {
@@ -1125,50 +1169,6 @@
       "breakdown": {
         "exploitation": 32.7,
         "severity": 16.2,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2021-25289",
-      "osv_id": "GHSA-57h3-9rgr-c24m",
-      "summary": "Out of bounds write in Pillow",
-      "cvss": 9.8,
-      "attack_vector": "NETWORK",
-      "fixed_in": "8.1.1",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.02345,
-      "score": 67.8,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 29.2,
-        "severity": 19.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
-      "id": "CVE-2020-10969",
-      "osv_id": "GHSA-758m-v56v-grj4",
-      "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
-      "cvss": 8.8,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.9.10.4",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.0356,
-      "score": 67.8,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 31.2,
-        "severity": 17.6,
         "asset_value": 12,
         "exposure": 7
       }
@@ -1947,6 +1947,28 @@
       "component": "django",
       "ecosystem": "PyPI",
       "installed": "3.2.0",
+      "id": "CVE-2021-45115",
+      "osv_id": "GHSA-53qw-q765-4fww",
+      "summary": "Denial-of-service in Django",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "3.2.11",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.02599,
+      "score": 63.9,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 29.9,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "django",
+      "ecosystem": "PyPI",
+      "installed": "3.2.0",
       "id": "CVE-2023-31047",
       "osv_id": "GHSA-r3xc-prgr-mg9p",
       "summary": "Django bypasses validation when using one form field to upload multiple files",
@@ -2000,32 +2022,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.02469,
-      "score": 63.5,
+      "score": 63.6,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 29.5,
-        "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2021-45115",
-      "osv_id": "GHSA-53qw-q765-4fww",
-      "summary": "Denial-of-service in Django",
-      "cvss": 7.5,
-      "attack_vector": "NETWORK",
-      "fixed_in": "3.2.11",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.02417,
-      "score": 63.4,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 29.4,
+        "exploitation": 29.6,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2101,6 +2101,28 @@
       "component": "django",
       "ecosystem": "PyPI",
       "installed": "3.2.0",
+      "id": "CVE-2021-45116",
+      "osv_id": "GHSA-8c5j-9r9f-c6w8",
+      "summary": "Information disclosure in Django",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "3.2.11",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.01978,
+      "score": 62.2,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 28.2,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "django",
+      "ecosystem": "PyPI",
+      "installed": "3.2.0",
       "id": "CVE-2022-22818",
       "osv_id": "GHSA-95rw-fx8r-36v6",
       "summary": "Cross-site Scripting in Django",
@@ -2159,6 +2181,28 @@
       "breakdown": {
         "exploitation": 30.8,
         "severity": 12.2,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112900",
+      "osv_id": "GHSA-w889-685w-c8fh",
+      "summary": "Pillow: Argument Injection in Ghostscript call, potentially leading into RCE",
+      "cvss": 9.2,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.01303,
+      "score": 62.0,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 24.6,
+        "severity": 18.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -2230,28 +2274,6 @@
       }
     },
     {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2021-45116",
-      "osv_id": "GHSA-8c5j-9r9f-c6w8",
-      "summary": "Information disclosure in Django",
-      "cvss": 7.5,
-      "attack_vector": "NETWORK",
-      "fixed_in": "3.2.11",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.01839,
-      "score": 61.6,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 27.6,
-        "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "jinja2",
       "ecosystem": "PyPI",
       "installed": "2.11.2",
@@ -2291,28 +2313,6 @@
       "breakdown": {
         "exploitation": 26.5,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112900",
-      "osv_id": "GHSA-w889-685w-c8fh",
-      "summary": "Pillow: Argument Injection in Ghostscript call, potentially leading into RCE",
-      "cvss": 9.2,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.01064,
-      "score": 60.0,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 22.6,
-        "severity": 18.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -2362,6 +2362,28 @@
       }
     },
     {
+      "component": "werkzeug",
+      "ecosystem": "PyPI",
+      "installed": "1.0.1",
+      "id": "CVE-2023-25577",
+      "osv_id": "GHSA-xg9f-g7g7-2323",
+      "summary": "High resource usage when parsing multipart form data with many fields",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.2.3",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.0142,
+      "score": 59.5,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 25.5,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -2406,23 +2428,23 @@
       }
     },
     {
-      "component": "werkzeug",
+      "component": "django",
       "ecosystem": "PyPI",
-      "installed": "1.0.1",
-      "id": "CVE-2023-25577",
-      "osv_id": "GHSA-xg9f-g7g7-2323",
-      "summary": "High resource usage when parsing multipart form data with many fields",
-      "cvss": 7.5,
+      "installed": "3.2.0",
+      "id": "CVE-2021-45452",
+      "osv_id": "GHSA-jrh2-hc4r-7jwx",
+      "summary": "Directory-traversal in Django",
+      "cvss": 5.3,
       "attack_vector": "NETWORK",
-      "fixed_in": "2.2.3",
+      "fixed_in": "3.2.11",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.0142,
+      "epss": 0.02588,
       "score": 59.4,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 25.4,
-        "severity": 15.0,
+        "exploitation": 29.8,
+        "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
       }
@@ -2472,28 +2494,6 @@
       }
     },
     {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2021-45452",
-      "osv_id": "GHSA-jrh2-hc4r-7jwx",
-      "summary": "Directory-traversal in Django",
-      "cvss": 5.3,
-      "attack_vector": "NETWORK",
-      "fixed_in": "3.2.11",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.02408,
-      "score": 59.0,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 29.4,
-        "severity": 10.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -2533,6 +2533,28 @@
       "breakdown": {
         "exploitation": 30.1,
         "severity": 9.8,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112403",
+      "osv_id": "GHSA-8g5g-8vmr-9782",
+      "summary": "Pillow: Heap buffer overflow in ImagingJpegDecode",
+      "cvss": 9.2,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00945,
+      "score": 58.7,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 21.3,
+        "severity": 18.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -2593,7 +2615,7 @@
       "fixed_in": "2.2.5",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.01261,
+      "epss": 0.0125,
       "score": 58.3,
       "priority": "P3",
       "breakdown": {
@@ -2714,28 +2736,6 @@
       }
     },
     {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112403",
-      "osv_id": "GHSA-8g5g-8vmr-9782",
-      "summary": "Pillow: Heap buffer overflow in ImagingJpegDecode",
-      "cvss": 9.2,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00771,
-      "score": 56.8,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 19.4,
-        "severity": 18.4,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "cryptography",
       "ecosystem": "PyPI",
       "installed": "3.3.1",
@@ -2819,6 +2819,28 @@
       "breakdown": {
         "exploitation": 25.1,
         "severity": 11.8,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112398",
+      "osv_id": "GHSA-5x8w-8jj5-q52h",
+      "summary": "Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution",
+      "cvss": 9.2,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00696,
+      "score": 55.9,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 18.5,
+        "severity": 18.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -2915,20 +2937,108 @@
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
-      "id": "CVE-2026-112398",
-      "osv_id": "GHSA-5x8w-8jj5-q52h",
-      "summary": "Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution",
-      "cvss": 9.2,
+      "id": "CVE-2026-112402",
+      "osv_id": "GHSA-7mwm-ghpf-9vrm",
+      "summary": "Pillow: Double free in ImagingScaleAffine on calloc failure via Image.transform",
+      "cvss": 8.7,
       "attack_vector": "NETWORK",
       "fixed_in": "13.0.0",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.0057,
-      "score": 53.9,
+      "epss": 0.00594,
+      "score": 53.3,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.9,
+        "severity": 17.4,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112894",
+      "osv_id": "GHSA-jg86-v3jv-hrpm",
+      "summary": "Pillow: Quadratic-time DoS in PDF save_all (PdfParser.next_object_id)",
+      "cvss": 8.7,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00594,
+      "score": 53.3,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.9,
+        "severity": 17.4,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112895",
+      "osv_id": "GHSA-p4wg-p73j-c528",
+      "summary": "Pillow: Unbounded recursion parsing a PDF page tree or trailer chain (incomplete fix for CVE-2026-42310)",
+      "cvss": 8.7,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00594,
+      "score": 53.3,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.9,
+        "severity": 17.4,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112397",
+      "osv_id": "GHSA-58r4-6rv3-gfh8",
+      "summary": "Pillow: Out-of-bounds access in _imagingmorph on a zero-width image",
+      "cvss": 8.7,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00573,
+      "score": 52.9,
       "priority": "P4",
       "breakdown": {
         "exploitation": 16.5,
-        "severity": 18.4,
+        "severity": 17.4,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112406",
+      "osv_id": "GHSA-f2g6-542v-9j58",
+      "summary": "Pillow: Infinite loop in PdfParser.rewrite_pages on page tree Parent cycle",
+      "cvss": 8.7,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00573,
+      "score": 52.9,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.5,
+        "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -2946,10 +3056,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01113,
-      "score": 52.6,
+      "score": 52.7,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 23.0,
+        "exploitation": 23.1,
         "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
@@ -2990,10 +3100,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00593,
-      "score": 52.2,
+      "score": 52.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 16.8,
+        "exploitation": 16.9,
         "severity": 16.4,
         "asset_value": 12,
         "exposure": 7
@@ -3012,10 +3122,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00593,
-      "score": 52.2,
+      "score": 52.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 16.8,
+        "exploitation": 16.9,
         "severity": 16.4,
         "asset_value": 12,
         "exposure": 7
@@ -3025,20 +3135,20 @@
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
-      "id": "CVE-2026-112402",
-      "osv_id": "GHSA-7mwm-ghpf-9vrm",
-      "summary": "Pillow: Double free in ImagingScaleAffine on calloc failure via Image.transform",
-      "cvss": 8.7,
+      "id": "CVE-2026-96640",
+      "osv_id": "GHSA-mrfp-p49p-3hf2",
+      "summary": "Pillow PDF append accepts malformed shared page-tree DAG causing resource exhaustion",
+      "cvss": 8.2,
       "attack_vector": "NETWORK",
       "fixed_in": "13.0.0",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.00512,
-      "score": 51.6,
+      "epss": 0.00581,
+      "score": 52.1,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.2,
-        "severity": 17.4,
+        "exploitation": 16.7,
+        "severity": 16.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3047,41 +3157,19 @@
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
-      "id": "CVE-2026-112894",
-      "osv_id": "GHSA-jg86-v3jv-hrpm",
-      "summary": "Pillow: Quadratic-time DoS in PDF save_all (PdfParser.next_object_id)",
+      "id": "CVE-2026-112399",
+      "osv_id": "GHSA-5xm2-6676-qcp9",
+      "summary": "Pillow: APNG background disposal allocates full canvas before decompression bomb check",
       "cvss": 8.7,
       "attack_vector": "NETWORK",
       "fixed_in": "13.0.0",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.00512,
-      "score": 51.6,
+      "epss": 0.00529,
+      "score": 52.0,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.2,
-        "severity": 17.4,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112897",
-      "osv_id": "GHSA-q45j-58j2-45rg",
-      "summary": "Pillow: TiffDecode returns uninitialized memory as pixels for short JPEG strips",
-      "cvss": 8.7,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00512,
-      "score": 51.6,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 15.2,
+        "exploitation": 15.6,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -3113,20 +3201,20 @@
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
-      "id": "CVE-2026-112896",
-      "osv_id": "GHSA-pchr-8j38-3x4p",
-      "summary": "Pillow: TIFF encoder ColorMap plane-size mismatch causes a heap out-of-bounds read",
-      "cvss": 8.8,
+      "id": "CVE-2026-112892",
+      "osv_id": "GHSA-gg2r-wvfm-q9rx",
+      "summary": "Pillow: MSP RLE decoder expands a tiny file into unbounded memory",
+      "cvss": 8.7,
       "attack_vector": "NETWORK",
       "fixed_in": "13.0.0",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.00493,
+      "epss": 0.00503,
       "score": 51.4,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 14.8,
-        "severity": 17.6,
+        "exploitation": 15.0,
+        "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3149,28 +3237,6 @@
       "breakdown": {
         "exploitation": 21.7,
         "severity": 10.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112397",
-      "osv_id": "GHSA-58r4-6rv3-gfh8",
-      "summary": "Pillow: Out-of-bounds access in _imagingmorph on a zero-width image",
-      "cvss": 8.7,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00493,
-      "score": 51.2,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 14.8,
-        "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3267,20 +3333,42 @@
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
-      "id": "CVE-2026-96640",
-      "osv_id": "GHSA-mrfp-p49p-3hf2",
-      "summary": "Pillow PDF append accepts malformed shared page-tree DAG causing resource exhaustion",
-      "cvss": 8.2,
+      "id": "CVE-2026-112896",
+      "osv_id": "GHSA-pchr-8j38-3x4p",
+      "summary": "Pillow: TIFF encoder ColorMap plane-size mismatch causes a heap out-of-bounds read",
+      "cvss": 8.8,
       "attack_vector": "NETWORK",
       "fixed_in": "13.0.0",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.00515,
-      "score": 50.7,
+      "epss": 0.00475,
+      "score": 50.9,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.3,
-        "severity": 16.4,
+        "exploitation": 14.3,
+        "severity": 17.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112897",
+      "osv_id": "GHSA-q45j-58j2-45rg",
+      "summary": "Pillow: TiffDecode returns uninitialized memory as pixels for short JPEG strips",
+      "cvss": 8.7,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00479,
+      "score": 50.8,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 14.4,
+        "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3298,11 +3386,33 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00892,
-      "score": 50.5,
+      "score": 50.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 20.7,
+        "exploitation": 20.8,
         "severity": 10.8,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112401",
+      "osv_id": "GHSA-74r2-7ff9-mjj2",
+      "summary": "Pillow: Quadratic GIF comment concatenation allows DoS in Image.open()",
+      "cvss": 6.9,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00649,
+      "score": 50.6,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 17.8,
+        "severity": 13.8,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3333,6 +3443,28 @@
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
+      "id": "CVE-2026-112404",
+      "osv_id": "GHSA-c6hw-5grf-ff96",
+      "summary": "Pillow: OOB read in TiffDecode.c tile and RGBA paths leaks heap memory into pixels",
+      "cvss": 8.8,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00444,
+      "score": 50.1,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 13.5,
+        "severity": 17.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
       "id": "CVE-2026-55379",
       "osv_id": "GHSA-45hq-cxwh-f6vc",
       "summary": "Pillow `BdfFontFile`: `Image.new()` called without `_decompression_bomb_check()` \u2014 bomb protection bypass via font loadi",
@@ -3342,10 +3474,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00522,
-      "score": 49.4,
+      "score": 49.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.4,
+        "exploitation": 15.5,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -3364,10 +3496,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00518,
-      "score": 49.3,
+      "score": 49.4,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.3,
+        "exploitation": 15.4,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -3391,72 +3523,6 @@
       "breakdown": {
         "exploitation": 17.5,
         "severity": 12.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112406",
-      "osv_id": "GHSA-f2g6-542v-9j58",
-      "summary": "Pillow: Infinite loop in PdfParser.rewrite_pages on page tree Parent cycle",
-      "cvss": 8.7,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00417,
-      "score": 49.0,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 12.6,
-        "severity": 17.4,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112892",
-      "osv_id": "GHSA-gg2r-wvfm-q9rx",
-      "summary": "Pillow: MSP RLE decoder expands a tiny file into unbounded memory",
-      "cvss": 8.7,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00417,
-      "score": 49.0,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 12.6,
-        "severity": 17.4,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112895",
-      "osv_id": "GHSA-p4wg-p73j-c528",
-      "summary": "Pillow: Unbounded recursion parsing a PDF page tree or trailer chain (incomplete fix for CVE-2026-42310)",
-      "cvss": 8.7,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00417,
-      "score": 49.0,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 12.6,
-        "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3528,6 +3594,28 @@
       }
     },
     {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112901",
+      "osv_id": "GHSA-xgh8-jp6q-p5x8",
+      "summary": "Pillow: ReDoS in XbmImagePlugin: 512-byte file stalls Image.open() for minutes",
+      "cvss": 6.9,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00532,
+      "score": 48.5,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 15.7,
+        "severity": 13.8,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "log4j-core",
       "ecosystem": "Maven",
       "installed": "2.14.1",
@@ -3545,6 +3633,28 @@
       "breakdown": {
         "exploitation": 15.7,
         "severity": 13.8,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112391",
+      "osv_id": "GHSA-254f-3936-288h",
+      "summary": "Pillow: PdfParser can recurse without limit in get_value() and linearize_page_tree()",
+      "cvss": 6.3,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00581,
+      "score": 48.3,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.7,
+        "severity": 12.6,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3572,72 +3682,6 @@
       }
     },
     {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112391",
-      "osv_id": "GHSA-254f-3936-288h",
-      "summary": "Pillow: PdfParser can recurse without limit in get_value() and linearize_page_tree()",
-      "cvss": 6.3,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00581,
-      "score": 48.2,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 16.6,
-        "severity": 12.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112404",
-      "osv_id": "GHSA-c6hw-5grf-ff96",
-      "summary": "Pillow: OOB read in TiffDecode.c tile and RGBA paths leaks heap memory into pixels",
-      "cvss": 8.8,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00386,
-      "score": 48.0,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 11.4,
-        "severity": 17.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112399",
-      "osv_id": "GHSA-5xm2-6676-qcp9",
-      "summary": "Pillow: APNG background disposal allocates full canvas before decompression bomb check",
-      "cvss": 8.7,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00386,
-      "score": 47.8,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 11.4,
-        "severity": 17.4,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "log4j-core",
       "ecosystem": "Maven",
       "installed": "2.14.1",
@@ -3650,10 +3694,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.0056,
-      "score": 47.8,
+      "score": 47.9,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 16.2,
+        "exploitation": 16.3,
         "severity": 12.6,
         "asset_value": 12,
         "exposure": 7
@@ -3672,10 +3716,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00555,
-      "score": 47.7,
+      "score": 47.8,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 16.1,
+        "exploitation": 16.2,
         "severity": 12.6,
         "asset_value": 12,
         "exposure": 7
@@ -3694,35 +3738,13 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00956,
-      "score": 47.4,
+      "score": 47.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 21.4,
+        "exploitation": 21.5,
         "severity": 11.0,
         "asset_value": 12,
         "exposure": 3
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112401",
-      "osv_id": "GHSA-74r2-7ff9-mjj2",
-      "summary": "Pillow: Quadratic GIF comment concatenation allows DoS in Image.open()",
-      "cvss": 6.9,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00479,
-      "score": 47.2,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 14.4,
-        "severity": 13.8,
-        "asset_value": 12,
-        "exposure": 7
       }
     },
     {
@@ -3848,35 +3870,35 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00335,
-      "score": 46.1,
+      "score": 46.2,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 9.3,
+        "exploitation": 9.4,
         "severity": 17.8,
         "asset_value": 12,
         "exposure": 7
       }
     },
     {
-      "component": "pillow",
+      "component": "jinja2",
       "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-96637",
-      "osv_id": "GHSA-g842-9rc4-69pw",
-      "summary": "Pillow: Decompression bomb check bypass in SpiderImagePlugin.seek() leads to unbounded allocation DoS",
-      "cvss": 7.1,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
+      "installed": "2.11.2",
+      "id": "CVE-2024-56326",
+      "osv_id": "GHSA-q2x7-8rv6-6q7h",
+      "summary": "Jinja has a sandbox breakout through indirect reference to format method",
+      "cvss": 7.8,
+      "attack_vector": "LOCAL",
+      "fixed_in": "3.1.5",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.00429,
+      "epss": 0.00522,
       "score": 46.1,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 12.9,
-        "severity": 14.2,
+        "exploitation": 15.5,
+        "severity": 15.6,
         "asset_value": 12,
-        "exposure": 7
+        "exposure": 3
       }
     },
     {
@@ -3924,72 +3946,6 @@
       }
     },
     {
-      "component": "jinja2",
-      "ecosystem": "PyPI",
-      "installed": "2.11.2",
-      "id": "CVE-2024-56326",
-      "osv_id": "GHSA-q2x7-8rv6-6q7h",
-      "summary": "Jinja has a sandbox breakout through indirect reference to format method",
-      "cvss": 7.8,
-      "attack_vector": "LOCAL",
-      "fixed_in": "3.1.5",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00522,
-      "score": 46.0,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 15.4,
-        "severity": 15.6,
-        "asset_value": 12,
-        "exposure": 3
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-96644",
-      "osv_id": "GHSA-9v9v-9qvf-h2hj",
-      "summary": "Pillow: Heap over-read in WMF/EMF rendering via 16-bit dimension truncation (Windows builds)",
-      "cvss": 7.1,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00412,
-      "score": 45.5,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 12.3,
-        "severity": 14.2,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112901",
-      "osv_id": "GHSA-xgh8-jp6q-p5x8",
-      "summary": "Pillow: ReDoS in XbmImagePlugin: 512-byte file stalls Image.open() for minutes",
-      "cvss": 6.9,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00417,
-      "score": 45.4,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 12.6,
-        "severity": 13.8,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -4002,10 +3958,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00385,
-      "score": 45.3,
+      "score": 45.4,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 11.3,
+        "exploitation": 11.4,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -4024,10 +3980,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00385,
-      "score": 45.3,
+      "score": 45.4,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 11.3,
+        "exploitation": 11.4,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -4046,33 +4002,11 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00385,
-      "score": 45.3,
+      "score": 45.4,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 11.3,
+        "exploitation": 11.4,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-96642",
-      "osv_id": "GHSA-3j72-p6qg-6xp7",
-      "summary": "Pillow: TarIO negative size field causes infinite CPU-spin loop",
-      "cvss": 7.1,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00396,
-      "score": 45.0,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 11.8,
-        "severity": 14.2,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4090,13 +4024,35 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00732,
-      "score": 44.9,
+      "score": 45.0,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 18.9,
+        "exploitation": 19.0,
         "severity": 11.0,
         "asset_value": 12,
         "exposure": 3
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-96644",
+      "osv_id": "GHSA-9v9v-9qvf-h2hj",
+      "summary": "Pillow: Heap over-read in WMF/EMF rendering via 16-bit dimension truncation (Windows builds)",
+      "cvss": 7.1,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00384,
+      "score": 44.5,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 11.3,
+        "severity": 14.2,
+        "asset_value": 12,
+        "exposure": 7
       }
     },
     {
@@ -4112,11 +4068,33 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00527,
+      "score": 44.2,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 15.6,
+        "severity": 9.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-96637",
+      "osv_id": "GHSA-g842-9rc4-69pw",
+      "summary": "Pillow: Decompression bomb check bypass in SpiderImagePlugin.seek() leads to unbounded allocation DoS",
+      "cvss": 7.1,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00373,
       "score": 44.1,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 15.5,
-        "severity": 9.6,
+        "exploitation": 10.9,
+        "severity": 14.2,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4161,6 +4139,28 @@
       "breakdown": {
         "exploitation": 14.3,
         "severity": 10.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-96642",
+      "osv_id": "GHSA-3j72-p6qg-6xp7",
+      "summary": "Pillow: TarIO negative size field causes infinite CPU-spin loop",
+      "cvss": 7.1,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00345,
+      "score": 43.0,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 9.8,
+        "severity": 14.2,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4243,11 +4243,11 @@
       "fixed_in": "13.0.0",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.0035,
-      "score": 42.0,
+      "epss": 0.00345,
+      "score": 41.8,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 10.0,
+        "exploitation": 9.8,
         "severity": 13.0,
         "asset_value": 12,
         "exposure": 7
@@ -4265,11 +4265,11 @@
       "fixed_in": "13.0.0",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.0035,
-      "score": 42.0,
+      "epss": 0.00345,
+      "score": 41.8,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 10.0,
+        "exploitation": 9.8,
         "severity": 13.0,
         "asset_value": 12,
         "exposure": 7
@@ -4342,6 +4342,28 @@
       }
     },
     {
+      "component": "urllib3",
+      "ecosystem": "PyPI",
+      "installed": "1.26.4",
+      "id": "CVE-2023-45803",
+      "osv_id": "GHSA-g4mx-q9vg-27p4",
+      "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+      "cvss": 4.2,
+      "attack_vector": null,
+      "fixed_in": "1.26.18",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00593,
+      "score": 40.3,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.9,
+        "severity": 8.4,
+        "asset_value": 12,
+        "exposure": 3
+      }
+    },
+    {
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
@@ -4383,28 +4405,6 @@
         "severity": 12.2,
         "asset_value": 12,
         "exposure": 7
-      }
-    },
-    {
-      "component": "urllib3",
-      "ecosystem": "PyPI",
-      "installed": "1.26.4",
-      "id": "CVE-2023-45803",
-      "osv_id": "GHSA-g4mx-q9vg-27p4",
-      "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
-      "cvss": 4.2,
-      "attack_vector": null,
-      "fixed_in": "1.26.18",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00593,
-      "score": 40.2,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 16.8,
-        "severity": 8.4,
-        "asset_value": 12,
-        "exposure": 3
       }
     },
     {
@@ -4452,6 +4452,28 @@
       }
     },
     {
+      "component": "django",
+      "ecosystem": "PyPI",
+      "installed": "3.2.0",
+      "id": "CVE-2026-48588",
+      "osv_id": "GHSA-3h9f-r86x-qvjx",
+      "summary": "Django: cache middleware may expose private responses when unrelated request cookies are present",
+      "cvss": 3.1,
+      "attack_vector": "NETWORK",
+      "fixed_in": "5.2.16",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00429,
+      "score": 38.2,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 13.0,
+        "severity": 6.2,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "cryptography",
       "ecosystem": "PyPI",
       "installed": "3.3.1",
@@ -4469,28 +4491,6 @@
       "breakdown": {
         "exploitation": 5.4,
         "severity": 13.8,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2026-48588",
-      "osv_id": "GHSA-3h9f-r86x-qvjx",
-      "summary": "Django: cache middleware may expose private responses when unrelated request cookies are present",
-      "cvss": 3.1,
-      "attack_vector": "NETWORK",
-      "fixed_in": "5.2.16",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00429,
-      "score": 38.1,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 12.9,
-        "severity": 6.2,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4618,10 +4618,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.004,
-      "score": 35.5,
+      "score": 35.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 11.9,
+        "exploitation": 12.0,
         "severity": 4.6,
         "asset_value": 12,
         "exposure": 7
@@ -4661,11 +4661,11 @@
       "fixed_in": "46.0.6",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.00223,
-      "score": 34.1,
+      "epss": 0.00227,
+      "score": 34.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 4.5,
+        "exploitation": 4.7,
         "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
