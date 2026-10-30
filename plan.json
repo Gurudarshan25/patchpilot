@@ -308,7 +308,7 @@
         37.2,
         48.4,
         58.4,
-        67.7,
+        67.6,
         76.4,
         83.1,
         91.0,
@@ -337,69 +337,69 @@
         [
           "mail-01|CVE-2021-34473",
           "mail-01|CVE-2024-21410",
-          "db-customers|CVE-2024-6387",
-          "db-customers|CVE-2022-3602",
-          "db-customers|CVE-2024-2511",
-          "laptop-fleet|CVE-2022-30190",
-          "laptop-fleet|CVE-2023-23397",
-          "laptop-fleet|CVE-2023-4863"
-        ],
-        [
-          "laptop-fleet|CVE-2023-21716",
           "web-shop|CVE-2021-41773",
           "web-shop|CVE-2022-22965",
           "web-shop|CVE-2023-44487",
-          "web-shop|CVE-2023-50164"
+          "web-shop|CVE-2023-50164",
+          "laptop-fleet|CVE-2022-30190"
         ],
         [
+          "laptop-fleet|CVE-2023-23397",
+          "laptop-fleet|CVE-2023-4863",
+          "laptop-fleet|CVE-2023-21716",
           "app-01|CVE-2021-44228",
+          "db-customers|CVE-2024-6387",
+          "db-customers|CVE-2022-3602",
           "app-01|CVE-2022-42889",
-          "app-01|CVE-2023-38545",
+          "app-01|CVE-2023-38545"
+        ],
+        [
+          "db-customers|CVE-2024-2511",
           "backup-01|CVE-2021-4034",
           "app-01|CVE-2024-24549",
           "dc-01|CVE-2020-1472",
           "db-customers|CVE-2021-3156",
-          "backup-01|CVE-2022-0847"
+          "backup-01|CVE-2022-0847",
+          "app-01|CVE-2024-21733",
+          "wiki|CVE-2022-26134"
         ],
         [
-          "app-01|CVE-2024-21733",
-          "wiki|CVE-2022-26134",
           "wiki|CVE-2023-22518",
           "legacy-scan|CVE-2019-0708",
           "wiki|CVE-2023-22527",
           "mail-01|CVE-2024-26198",
-          "legacy-scan|CVE-2017-0144"
-        ],
-        [
+          "legacy-scan|CVE-2017-0144",
           "dev-server|CVE-2021-44228",
           "web-shop|CVE-2024-22259",
           "laptop-fleet|CVE-2024-20677",
-          "web-shop|CVE-2024-24795",
+          "web-shop|CVE-2024-24795"
+        ],
+        [
           "db-customers|CVE-2023-6129",
           "web-shop|CVE-2024-23452",
           "db-customers|CVE-2023-6237",
           "dc-01|CVE-2024-26224",
           "db-customers|CVE-2024-28105",
-          "web-shop|CVE-2024-24814"
-        ],
-        [
+          "web-shop|CVE-2024-24814",
           "fw-edge|CVE-2024-3384",
           "web-shop|CVE-2023-29055",
           "db-customers|CVE-2024-0727",
-          "web-shop|CVE-2024-22233",
+          "web-shop|CVE-2024-22233"
+        ],
+        [
           "web-shop|CVE-2023-47458",
           "db-customers|CVE-2024-27289",
           "laptop-fleet|CVE-2024-20673",
           "laptop-fleet|CVE-2024-26199",
           "laptop-fleet|CVE-2024-0518",
           "dc-01|CVE-2024-3384",
-          "dev-server|CVE-2024-25723"
-        ],
-        [
+          "dev-server|CVE-2024-25723",
           "wiki|CVE-2023-22512",
           "laptop-fleet|CVE-2024-1673",
           "app-01|CVE-2024-23672",
-          "db-customers|CVE-2024-24574",
+          "db-customers|CVE-2024-24574"
+        ],
+        [
           "web-shop|CVE-2023-49250",
           "laptop-fleet|CVE-2024-21384",
           "dev-server|CVE-2023-0286",
@@ -407,23 +407,23 @@
           "app-01|CVE-2023-49930",
           "db-customers|CVE-2024-22208",
           "backup-01|CVE-2024-26924",
-          "fw-edge|CVE-2024-0008"
-        ],
-        [
+          "fw-edge|CVE-2024-0008",
           "db-customers|CVE-2024-2338",
           "db-customers|CVE-2023-51787",
-          "backup-01|CVE-2023-52628",
+          "backup-01|CVE-2023-52628"
+        ],
+        [
           "wiki|CVE-2024-21673",
           "dc-01|CVE-2023-4550",
           "laptop-fleet|CVE-2024-0807",
           "wiki|CVE-2024-21672",
           "fw-edge|CVE-2024-0007",
           "dev-server|CVE-2023-32233",
-          "dc-01|CVE-2024-26239"
+          "dc-01|CVE-2024-26239",
+          "wiki|CVE-2024-21674",
+          "dc-01|CVE-2023-52296"
         ],
         [
-          "wiki|CVE-2024-21674",
-          "dc-01|CVE-2023-52296",
           "laptop-fleet|CVE-2024-3841",
           "fw-edge|CVE-2024-0010",
           "fw-edge|CVE-2024-3386",
@@ -431,12 +431,12 @@
           "app-01|CVE-2024-2004",
           "app-01|CVE-2024-3101",
           "laptop-fleet|CVE-2024-0813",
-          "app-01|CVE-2024-0853"
-        ],
-        [
+          "app-01|CVE-2024-0853",
           "dev-server|CVE-2024-23752",
           "laptop-fleet|CVE-2024-3844",
-          "fw-edge|CVE-2024-0011",
+          "fw-edge|CVE-2024-0011"
+        ],
+        [
           "dc-01|CVE-2024-22318",
           "web-shop|CVE-2024-1521",
           "dev-server|CVE-2024-21669",
@@ -445,11 +445,11 @@
           "backup-01|CVE-2021-47040",
           "db-customers|CVE-2024-0394",
           "backup-01|CVE-2021-46980",
-          "dev-server|CVE-2024-32481"
+          "dev-server|CVE-2024-32481",
+          "backup-01|CVE-2022-48663",
+          "db-customers|CVE-2024-29955"
         ],
         [
-          "backup-01|CVE-2022-48663",
-          "db-customers|CVE-2024-29955",
           "dev-server|CVE-2022-48626",
           "wiki|CVE-2024-23735",
           "dev-server|CVE-2021-47039",
@@ -462,23 +462,23 @@
       ],
       "burn": [
         12.0,
-        22.4,
-        29.0,
-        38.1,
-        45.5,
-        54.9,
-        64.3,
-        74.1,
-        81.6,
-        88.9,
-        96.5,
+        21.4,
+        31.5,
+        40.2,
+        49.4,
+        58.4,
+        67.6,
+        76.4,
+        83.1,
+        91.0,
+        97.5,
         100.0
       ],
       "week_80": 9,
-      "week_all_kev": 6,
-      "week_all_ransom": 6,
+      "week_all_kev": 5,
+      "week_all_ransom": 5,
       "week_unreachable": 3,
-      "kev_late": 14
+      "kev_late": 13
     },
     "Balanced": {
       "weeks": [
@@ -655,34 +655,32 @@
         [
           "mail-01|CVE-2021-34473",
           "mail-01|CVE-2024-21410",
-          "db-customers|CVE-2024-6387",
-          "db-customers|CVE-2022-3602",
-          "db-customers|CVE-2024-2511",
-          "laptop-fleet|CVE-2022-30190",
-          "laptop-fleet|CVE-2023-23397",
-          "laptop-fleet|CVE-2023-4863"
-        ],
-        [
-          "laptop-fleet|CVE-2023-21716",
           "web-shop|CVE-2021-41773",
           "web-shop|CVE-2022-22965",
           "web-shop|CVE-2023-44487",
-          "web-shop|CVE-2023-50164"
+          "web-shop|CVE-2023-50164",
+          "laptop-fleet|CVE-2022-30190"
         ],
         [
+          "laptop-fleet|CVE-2023-23397",
+          "laptop-fleet|CVE-2023-4863",
+          "laptop-fleet|CVE-2023-21716",
           "app-01|CVE-2021-44228",
           "backup-01|CVE-2021-4034",
-          "dc-01|CVE-2020-1472",
-          "wiki|CVE-2022-26134",
-          "wiki|CVE-2023-22518",
-          "legacy-scan|CVE-2019-0708"
+          "dc-01|CVE-2020-1472"
         ],
         [
+          "wiki|CVE-2022-26134",
+          "wiki|CVE-2023-22518",
+          "legacy-scan|CVE-2019-0708",
           "wiki|CVE-2023-22527",
           "legacy-scan|CVE-2017-0144",
           "dev-server|CVE-2021-44228",
-          "db-customers|CVE-2021-3156",
+          "db-customers|CVE-2021-3156"
+        ],
+        [
           "backup-01|CVE-2022-0847",
+          "db-customers|CVE-2024-6387",
           "app-01|CVE-2023-38545",
           "mail-01|CVE-2024-26198",
           "web-shop|CVE-2024-24795",
@@ -691,16 +689,16 @@
           "web-shop|CVE-2024-22233",
           "laptop-fleet|CVE-2024-20673",
           "laptop-fleet|CVE-2024-0518",
-          "dc-01|CVE-2024-3384"
-        ],
-        [
+          "dc-01|CVE-2024-3384",
           "laptop-fleet|CVE-2024-1673",
           "db-customers|CVE-2024-24574",
           "laptop-fleet|CVE-2024-21384",
           "dev-server|CVE-2023-0286",
           "db-customers|CVE-2024-22208",
           "backup-01|CVE-2024-26924",
-          "fw-edge|CVE-2024-0008",
+          "fw-edge|CVE-2024-0008"
+        ],
+        [
           "db-customers|CVE-2023-51787",
           "dc-01|CVE-2024-26239",
           "fw-edge|CVE-2024-3386",
@@ -711,12 +709,13 @@
           "dc-01|CVE-2024-22318",
           "dev-server|CVE-2024-21669",
           "backup-01|CVE-2023-52438",
+          "db-customers|CVE-2022-3602",
           "app-01|CVE-2023-49932",
-          "app-01|CVE-2022-42889"
+          "app-01|CVE-2022-42889",
+          "app-01|CVE-2024-24549",
+          "web-shop|CVE-2024-22259"
         ],
         [
-          "app-01|CVE-2024-24549",
-          "web-shop|CVE-2024-22259",
           "dc-01|CVE-2024-26224",
           "db-customers|CVE-2024-28105",
           "web-shop|CVE-2024-24814",
@@ -724,11 +723,12 @@
           "web-shop|CVE-2023-29055",
           "web-shop|CVE-2023-47458",
           "db-customers|CVE-2024-27289",
-          "dev-server|CVE-2024-25723"
+          "dev-server|CVE-2024-25723",
+          "wiki|CVE-2023-22512",
+          "app-01|CVE-2024-23672"
         ],
         [
-          "wiki|CVE-2023-22512",
-          "app-01|CVE-2024-23672",
+          "db-customers|CVE-2024-2511",
           "db-customers|CVE-2024-2338",
           "backup-01|CVE-2023-52628",
           "wiki|CVE-2024-21673",
@@ -780,12 +780,12 @@
       ],
       "burn": [
         12.0,
-        22.4,
-        29.0,
-        35.6,
-        49.3,
-        63.7,
-        72.9,
+        21.4,
+        28.8,
+        36.1,
+        52.5,
+        64.7,
+        73.4,
         80.6,
         87.1,
         92.7,
@@ -794,9 +794,9 @@
       ],
       "week_80": 8,
       "week_all_kev": 5,
-      "week_all_ransom": 5,
+      "week_all_ransom": 4,
       "week_unreachable": 3,
-      "kev_late": 14
+      "kev_late": 13
     }
   }
 }
