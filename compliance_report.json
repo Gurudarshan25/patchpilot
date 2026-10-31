@@ -1242,27 +1242,37 @@
         "deadline_date": "2026-10-03"
       },
       {
-        "key": "web-shop|CVE-2021-41773",
-        "priority": "P1",
-        "in_kev": true,
+        "key": "db-customers|CVE-2024-6387",
+        "priority": "P2",
+        "in_kev": false,
         "fixed_on_day": 10,
-        "deadline_day": 2,
+        "deadline_day": 7,
         "late": true,
         "fix_date": "2026-10-11",
-        "deadline_date": "2026-10-03"
+        "deadline_date": "2026-10-08"
       },
       {
-        "key": "web-shop|CVE-2022-22965",
-        "priority": "P1",
-        "in_kev": true,
+        "key": "db-customers|CVE-2022-3602",
+        "priority": "P2",
+        "in_kev": false,
+        "fixed_on_day": 10,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-10-11",
+        "deadline_date": "2026-10-08"
+      },
+      {
+        "key": "db-customers|CVE-2024-2511",
+        "priority": "P2",
+        "in_kev": false,
         "fixed_on_day": 11,
-        "deadline_day": 2,
+        "deadline_day": 7,
         "late": true,
         "fix_date": "2026-10-12",
-        "deadline_date": "2026-10-03"
+        "deadline_date": "2026-10-08"
       },
       {
-        "key": "web-shop|CVE-2023-44487",
+        "key": "laptop-fleet|CVE-2022-30190",
         "priority": "P1",
         "in_kev": true,
         "fixed_on_day": 12,
@@ -1272,17 +1282,17 @@
         "deadline_date": "2026-10-03"
       },
       {
-        "key": "web-shop|CVE-2023-50164",
-        "priority": "P2",
-        "in_kev": false,
+        "key": "laptop-fleet|CVE-2023-23397",
+        "priority": "P1",
+        "in_kev": true,
         "fixed_on_day": 13,
-        "deadline_day": 7,
+        "deadline_day": 2,
         "late": true,
         "fix_date": "2026-10-14",
-        "deadline_date": "2026-10-08"
+        "deadline_date": "2026-10-03"
       },
       {
-        "key": "laptop-fleet|CVE-2022-30190",
+        "key": "laptop-fleet|CVE-2023-4863",
         "priority": "P1",
         "in_kev": true,
         "fixed_on_day": 14,
@@ -1292,67 +1302,67 @@
         "deadline_date": "2026-10-03"
       },
       {
-        "key": "laptop-fleet|CVE-2023-23397",
-        "priority": "P1",
-        "in_kev": true,
-        "fixed_on_day": 16,
-        "deadline_day": 2,
-        "late": true,
-        "fix_date": "2026-10-17",
-        "deadline_date": "2026-10-03"
-      },
-      {
-        "key": "laptop-fleet|CVE-2023-4863",
-        "priority": "P1",
-        "in_kev": true,
-        "fixed_on_day": 16,
-        "deadline_day": 2,
-        "late": true,
-        "fix_date": "2026-10-17",
-        "deadline_date": "2026-10-03"
-      },
-      {
         "key": "laptop-fleet|CVE-2023-21716",
         "priority": "P2",
         "in_kev": false,
-        "fixed_on_day": 17,
+        "fixed_on_day": 15,
         "deadline_day": 7,
         "late": true,
+        "fix_date": "2026-10-16",
+        "deadline_date": "2026-10-08"
+      },
+      {
+        "key": "web-shop|CVE-2021-41773",
+        "priority": "P1",
+        "in_kev": true,
+        "fixed_on_day": 16,
+        "deadline_day": 2,
+        "late": true,
+        "fix_date": "2026-10-17",
+        "deadline_date": "2026-10-03"
+      },
+      {
+        "key": "web-shop|CVE-2022-22965",
+        "priority": "P1",
+        "in_kev": true,
+        "fixed_on_day": 17,
+        "deadline_day": 2,
+        "late": true,
         "fix_date": "2026-10-18",
+        "deadline_date": "2026-10-03"
+      },
+      {
+        "key": "web-shop|CVE-2023-44487",
+        "priority": "P1",
+        "in_kev": true,
+        "fixed_on_day": 18,
+        "deadline_day": 2,
+        "late": true,
+        "fix_date": "2026-10-19",
+        "deadline_date": "2026-10-03"
+      },
+      {
+        "key": "web-shop|CVE-2023-50164",
+        "priority": "P2",
+        "in_kev": false,
+        "fixed_on_day": 19,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-10-20",
         "deadline_date": "2026-10-08"
       },
       {
         "key": "app-01|CVE-2021-44228",
         "priority": "P1",
         "in_kev": true,
-        "fixed_on_day": 19,
+        "fixed_on_day": 21,
         "deadline_day": 2,
         "late": true,
-        "fix_date": "2026-10-20",
+        "fix_date": "2026-10-22",
         "deadline_date": "2026-10-03"
       },
       {
         "key": "backup-01|CVE-2021-4034",
-        "priority": "P2",
-        "in_kev": true,
-        "fixed_on_day": 20,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-10-21",
-        "deadline_date": "2026-10-08"
-      },
-      {
-        "key": "dc-01|CVE-2020-1472",
-        "priority": "P2",
-        "in_kev": true,
-        "fixed_on_day": 21,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-10-22",
-        "deadline_date": "2026-10-08"
-      },
-      {
-        "key": "wiki|CVE-2022-26134",
         "priority": "P2",
         "in_kev": true,
         "fixed_on_day": 22,
@@ -1362,37 +1372,27 @@
         "deadline_date": "2026-10-08"
       },
       {
+        "key": "dc-01|CVE-2020-1472",
+        "priority": "P2",
+        "in_kev": true,
+        "fixed_on_day": 23,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-10-24",
+        "deadline_date": "2026-10-08"
+      },
+      {
+        "key": "wiki|CVE-2022-26134",
+        "priority": "P2",
+        "in_kev": true,
+        "fixed_on_day": 24,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-10-25",
+        "deadline_date": "2026-10-08"
+      },
+      {
         "key": "wiki|CVE-2023-22518",
-        "priority": "P2",
-        "in_kev": true,
-        "fixed_on_day": 24,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-10-25",
-        "deadline_date": "2026-10-08"
-      },
-      {
-        "key": "legacy-scan|CVE-2019-0708",
-        "priority": "P2",
-        "in_kev": true,
-        "fixed_on_day": 24,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-10-25",
-        "deadline_date": "2026-10-08"
-      },
-      {
-        "key": "wiki|CVE-2023-22527",
-        "priority": "P2",
-        "in_kev": true,
-        "fixed_on_day": 25,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-10-26",
-        "deadline_date": "2026-10-08"
-      },
-      {
-        "key": "legacy-scan|CVE-2017-0144",
         "priority": "P2",
         "in_kev": true,
         "fixed_on_day": 26,
@@ -1402,337 +1402,337 @@
         "deadline_date": "2026-10-08"
       },
       {
-        "key": "dev-server|CVE-2021-44228",
+        "key": "legacy-scan|CVE-2019-0708",
+        "priority": "P2",
+        "in_kev": true,
+        "fixed_on_day": 26,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-10-27",
+        "deadline_date": "2026-10-08"
+      },
+      {
+        "key": "wiki|CVE-2023-22527",
         "priority": "P2",
         "in_kev": true,
         "fixed_on_day": 27,
         "deadline_day": 7,
         "late": true,
         "fix_date": "2026-10-28",
+        "deadline_date": "2026-10-08"
+      },
+      {
+        "key": "legacy-scan|CVE-2017-0144",
+        "priority": "P2",
+        "in_kev": true,
+        "fixed_on_day": 28,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-10-29",
+        "deadline_date": "2026-10-08"
+      },
+      {
+        "key": "dev-server|CVE-2021-44228",
+        "priority": "P2",
+        "in_kev": true,
+        "fixed_on_day": 29,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-10-30",
         "deadline_date": "2026-10-08"
       },
       {
         "key": "db-customers|CVE-2021-3156",
         "priority": "P2",
         "in_kev": true,
-        "fixed_on_day": 27,
+        "fixed_on_day": 29,
         "deadline_day": 7,
         "late": true,
-        "fix_date": "2026-10-28",
+        "fix_date": "2026-10-30",
         "deadline_date": "2026-10-08"
       },
       {
         "key": "backup-01|CVE-2022-0847",
         "priority": "P2",
         "in_kev": true,
-        "fixed_on_day": 28,
+        "fixed_on_day": 30,
         "deadline_day": 7,
         "late": true,
-        "fix_date": "2026-10-29",
-        "deadline_date": "2026-10-08"
-      },
-      {
-        "key": "db-customers|CVE-2024-6387",
-        "priority": "P2",
-        "in_kev": false,
-        "fixed_on_day": 28,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-10-29",
+        "fix_date": "2026-10-31",
         "deadline_date": "2026-10-08"
       },
       {
         "key": "app-01|CVE-2023-38545",
         "priority": "P2",
         "in_kev": false,
-        "fixed_on_day": 29,
+        "fixed_on_day": 31,
         "deadline_day": 7,
         "late": true,
-        "fix_date": "2026-10-30",
+        "fix_date": "2026-11-01",
         "deadline_date": "2026-10-08"
       },
       {
         "key": "mail-01|CVE-2024-26198",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 29,
+        "fixed_on_day": 31,
         "deadline_day": 30,
-        "late": false,
-        "fix_date": "2026-10-30",
+        "late": true,
+        "fix_date": "2026-11-01",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "web-shop|CVE-2024-24795",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 30,
+        "fixed_on_day": 31,
         "deadline_day": 30,
-        "late": false,
-        "fix_date": "2026-10-31",
+        "late": true,
+        "fix_date": "2026-11-01",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "db-customers|CVE-2023-6129",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 30,
+        "fixed_on_day": 32,
         "deadline_day": 30,
-        "late": false,
-        "fix_date": "2026-10-31",
+        "late": true,
+        "fix_date": "2026-11-02",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "db-customers|CVE-2023-6237",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 30,
+        "fixed_on_day": 32,
         "deadline_day": 30,
-        "late": false,
-        "fix_date": "2026-10-31",
+        "late": true,
+        "fix_date": "2026-11-02",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "web-shop|CVE-2024-22233",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 31,
+        "fixed_on_day": 32,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-01",
+        "fix_date": "2026-11-02",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "laptop-fleet|CVE-2024-20673",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 31,
+        "fixed_on_day": 33,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-01",
+        "fix_date": "2026-11-03",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "laptop-fleet|CVE-2024-0518",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 31,
+        "fixed_on_day": 33,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-01",
+        "fix_date": "2026-11-03",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "dc-01|CVE-2024-3384",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 32,
+        "fixed_on_day": 33,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-02",
+        "fix_date": "2026-11-03",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "laptop-fleet|CVE-2024-1673",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 32,
+        "fixed_on_day": 34,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-02",
+        "fix_date": "2026-11-04",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "db-customers|CVE-2024-24574",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 32,
+        "fixed_on_day": 34,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-02",
+        "fix_date": "2026-11-04",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "laptop-fleet|CVE-2024-21384",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 33,
+        "fixed_on_day": 34,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-03",
+        "fix_date": "2026-11-04",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "dev-server|CVE-2023-0286",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 33,
+        "fixed_on_day": 35,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-03",
+        "fix_date": "2026-11-05",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "db-customers|CVE-2024-22208",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 33,
+        "fixed_on_day": 35,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-03",
+        "fix_date": "2026-11-05",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "backup-01|CVE-2024-26924",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 34,
+        "fixed_on_day": 35,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-04",
+        "fix_date": "2026-11-05",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "fw-edge|CVE-2024-0008",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 34,
+        "fixed_on_day": 36,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-04",
+        "fix_date": "2026-11-06",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "db-customers|CVE-2023-51787",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 34,
+        "fixed_on_day": 36,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-04",
+        "fix_date": "2026-11-06",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "dc-01|CVE-2024-26239",
         "priority": "P3",
         "in_kev": false,
-        "fixed_on_day": 35,
+        "fixed_on_day": 37,
         "deadline_day": 30,
         "late": true,
-        "fix_date": "2026-11-05",
+        "fix_date": "2026-11-07",
         "deadline_date": "2026-10-31"
       },
       {
         "key": "fw-edge|CVE-2024-3386",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 35,
+        "fixed_on_day": 37,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-05",
+        "fix_date": "2026-11-07",
         "deadline_date": "2026-12-30"
       },
       {
         "key": "dev-server|CVE-2024-32880",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 35,
+        "fixed_on_day": 37,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-05",
+        "fix_date": "2026-11-07",
         "deadline_date": "2026-12-30"
       },
       {
         "key": "laptop-fleet|CVE-2024-0813",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 36,
+        "fixed_on_day": 38,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-06",
+        "fix_date": "2026-11-08",
         "deadline_date": "2026-12-30"
       },
       {
         "key": "laptop-fleet|CVE-2024-3844",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 36,
+        "fixed_on_day": 38,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-06",
+        "fix_date": "2026-11-08",
         "deadline_date": "2026-12-30"
       },
       {
         "key": "fw-edge|CVE-2024-0011",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 37,
+        "fixed_on_day": 38,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-07",
+        "fix_date": "2026-11-08",
         "deadline_date": "2026-12-30"
       },
       {
         "key": "dc-01|CVE-2024-22318",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 37,
+        "fixed_on_day": 39,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-07",
+        "fix_date": "2026-11-09",
         "deadline_date": "2026-12-30"
       },
       {
         "key": "dev-server|CVE-2024-21669",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 37,
+        "fixed_on_day": 39,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-07",
+        "fix_date": "2026-11-09",
         "deadline_date": "2026-12-30"
       },
       {
         "key": "backup-01|CVE-2023-52438",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 38,
+        "fixed_on_day": 39,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-08",
+        "fix_date": "2026-11-09",
         "deadline_date": "2026-12-30"
-      },
-      {
-        "key": "db-customers|CVE-2022-3602",
-        "priority": "P2",
-        "in_kev": false,
-        "fixed_on_day": 38,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-11-08",
-        "deadline_date": "2026-10-08"
       },
       {
         "key": "app-01|CVE-2023-49932",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 39,
+        "fixed_on_day": 40,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-11-09",
+        "fix_date": "2026-11-10",
         "deadline_date": "2026-12-30"
       },
       {
         "key": "app-01|CVE-2022-42889",
-        "priority": "P2",
-        "in_kev": false,
-        "fixed_on_day": 39,
-        "deadline_day": 7,
-        "late": true,
-        "fix_date": "2026-11-09",
-        "deadline_date": "2026-10-08"
-      },
-      {
-        "key": "app-01|CVE-2024-24549",
         "priority": "P2",
         "in_kev": false,
         "fixed_on_day": 40,
@@ -1742,27 +1742,17 @@
         "deadline_date": "2026-10-08"
       },
       {
+        "key": "app-01|CVE-2024-24549",
+        "priority": "P2",
+        "in_kev": false,
+        "fixed_on_day": 41,
+        "deadline_day": 7,
+        "late": true,
+        "fix_date": "2026-11-11",
+        "deadline_date": "2026-10-08"
+      },
+      {
         "key": "web-shop|CVE-2024-22259",
-        "priority": "P3",
-        "in_kev": false,
-        "fixed_on_day": 41,
-        "deadline_day": 30,
-        "late": true,
-        "fix_date": "2026-11-11",
-        "deadline_date": "2026-10-31"
-      },
-      {
-        "key": "dc-01|CVE-2024-26224",
-        "priority": "P3",
-        "in_kev": false,
-        "fixed_on_day": 41,
-        "deadline_day": 30,
-        "late": true,
-        "fix_date": "2026-11-11",
-        "deadline_date": "2026-10-31"
-      },
-      {
-        "key": "db-customers|CVE-2024-28105",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 42,
@@ -1772,7 +1762,17 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "web-shop|CVE-2024-24814",
+        "key": "dc-01|CVE-2024-26224",
+        "priority": "P3",
+        "in_kev": false,
+        "fixed_on_day": 42,
+        "deadline_day": 30,
+        "late": true,
+        "fix_date": "2026-11-12",
+        "deadline_date": "2026-10-31"
+      },
+      {
+        "key": "db-customers|CVE-2024-28105",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 43,
@@ -1782,27 +1782,17 @@
         "deadline_date": "2026-10-31"
       },
       {
+        "key": "web-shop|CVE-2024-24814",
+        "priority": "P3",
+        "in_kev": false,
+        "fixed_on_day": 44,
+        "deadline_day": 30,
+        "late": true,
+        "fix_date": "2026-11-14",
+        "deadline_date": "2026-10-31"
+      },
+      {
         "key": "fw-edge|CVE-2024-3384",
-        "priority": "P3",
-        "in_kev": false,
-        "fixed_on_day": 44,
-        "deadline_day": 30,
-        "late": true,
-        "fix_date": "2026-11-14",
-        "deadline_date": "2026-10-31"
-      },
-      {
-        "key": "web-shop|CVE-2023-29055",
-        "priority": "P3",
-        "in_kev": false,
-        "fixed_on_day": 44,
-        "deadline_day": 30,
-        "late": true,
-        "fix_date": "2026-11-14",
-        "deadline_date": "2026-10-31"
-      },
-      {
-        "key": "web-shop|CVE-2023-47458",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 45,
@@ -1812,27 +1802,27 @@
         "deadline_date": "2026-10-31"
       },
       {
+        "key": "web-shop|CVE-2023-29055",
+        "priority": "P3",
+        "in_kev": false,
+        "fixed_on_day": 45,
+        "deadline_day": 30,
+        "late": true,
+        "fix_date": "2026-11-15",
+        "deadline_date": "2026-10-31"
+      },
+      {
+        "key": "web-shop|CVE-2023-47458",
+        "priority": "P3",
+        "in_kev": false,
+        "fixed_on_day": 46,
+        "deadline_day": 30,
+        "late": true,
+        "fix_date": "2026-11-16",
+        "deadline_date": "2026-10-31"
+      },
+      {
         "key": "db-customers|CVE-2024-27289",
-        "priority": "P3",
-        "in_kev": false,
-        "fixed_on_day": 46,
-        "deadline_day": 30,
-        "late": true,
-        "fix_date": "2026-11-16",
-        "deadline_date": "2026-10-31"
-      },
-      {
-        "key": "dev-server|CVE-2024-25723",
-        "priority": "P3",
-        "in_kev": false,
-        "fixed_on_day": 46,
-        "deadline_day": 30,
-        "late": true,
-        "fix_date": "2026-11-16",
-        "deadline_date": "2026-10-31"
-      },
-      {
-        "key": "wiki|CVE-2023-22512",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 47,
@@ -1842,7 +1832,17 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "app-01|CVE-2024-23672",
+        "key": "dev-server|CVE-2024-25723",
+        "priority": "P3",
+        "in_kev": false,
+        "fixed_on_day": 47,
+        "deadline_day": 30,
+        "late": true,
+        "fix_date": "2026-11-17",
+        "deadline_date": "2026-10-31"
+      },
+      {
+        "key": "wiki|CVE-2023-22512",
         "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 48,
@@ -1852,14 +1852,14 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "db-customers|CVE-2024-2511",
-        "priority": "P2",
+        "key": "app-01|CVE-2024-23672",
+        "priority": "P3",
         "in_kev": false,
         "fixed_on_day": 49,
-        "deadline_day": 7,
+        "deadline_day": 30,
         "late": true,
         "fix_date": "2026-11-19",
-        "deadline_date": "2026-10-08"
+        "deadline_date": "2026-10-31"
       },
       {
         "key": "db-customers|CVE-2024-2338",
@@ -2052,24 +2052,24 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "laptop-fleet|CVE-2024-26199",
-        "priority": "P3",
-        "in_kev": false,
-        "fixed_on_day": 64,
-        "deadline_day": 30,
-        "late": true,
-        "fix_date": "2026-12-04",
-        "deadline_date": "2026-10-31"
-      },
-      {
         "key": "backup-01|CVE-2021-46980",
         "priority": "P4",
         "in_kev": false,
-        "fixed_on_day": 65,
+        "fixed_on_day": 63,
         "deadline_day": 90,
         "late": false,
-        "fix_date": "2026-12-05",
+        "fix_date": "2026-12-03",
         "deadline_date": "2026-12-30"
+      },
+      {
+        "key": "laptop-fleet|CVE-2024-26199",
+        "priority": "P3",
+        "in_kev": false,
+        "fixed_on_day": 65,
+        "deadline_day": 30,
+        "late": true,
+        "fix_date": "2026-12-05",
+        "deadline_date": "2026-10-31"
       },
       {
         "key": "web-shop|CVE-2023-49250",
