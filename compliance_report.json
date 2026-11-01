@@ -1942,7 +1942,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "app-01|CVE-2024-2004",
+        "key": "app-01|CVE-2024-3101",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 55,
@@ -1952,7 +1952,7 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "app-01|CVE-2024-3101",
+        "key": "app-01|CVE-2024-2004",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 56,
