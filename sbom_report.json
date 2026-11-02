@@ -25,7 +25,7 @@
       "fixes": 69,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 3575.4
+      "risk_total": 3575.0
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.4,
-      "risk_total": 2233.1
+      "risk_total": 2233.7
     },
     {
       "component": "jackson-databind",
@@ -569,7 +569,7 @@
       "fixed_in": "3.3.2",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.06718,
+      "epss": 0.06799,
       "score": 70.1,
       "priority": "P3",
       "breakdown": {
@@ -811,7 +811,7 @@
       "fixed_in": "3.2.23",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.49774,
+      "epss": 0.53447,
       "score": 68.6,
       "priority": "P3",
       "breakdown": {
@@ -2946,10 +2946,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.4,
+      "score": 53.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.0,
+        "exploitation": 16.9,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -2968,10 +2968,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.4,
+      "score": 53.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.0,
+        "exploitation": 16.9,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -2990,10 +2990,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.4,
+      "score": 53.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.0,
+        "exploitation": 16.9,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -3792,6 +3792,28 @@
       }
     },
     {
+      "component": "django",
+      "ecosystem": "PyPI",
+      "installed": "3.2.0",
+      "id": "CVE-2025-48432",
+      "osv_id": "GHSA-7xr5-9hcq-chf9",
+      "summary": "Django Improper Output Neutralization for Logs vulnerability",
+      "cvss": 4.0,
+      "attack_vector": "NETWORK",
+      "fixed_in": "4.2.22",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00807,
+      "score": 46.9,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 19.9,
+        "severity": 8.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -3804,33 +3826,11 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00418,
-      "score": 46.7,
+      "score": 46.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 12.7,
+        "exploitation": 12.6,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2025-48432",
-      "osv_id": "GHSA-7xr5-9hcq-chf9",
-      "summary": "Django Improper Output Neutralization for Logs vulnerability",
-      "cvss": 4.0,
-      "attack_vector": "NETWORK",
-      "fixed_in": "4.2.22",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00751,
-      "score": 46.3,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 19.3,
-        "severity": 8.0,
         "asset_value": 12,
         "exposure": 7
       }
