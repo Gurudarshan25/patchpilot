@@ -15,7 +15,7 @@
       "fixes": 8,
       "kev": 2,
       "max_score": 84.0,
-      "risk_total": 507.4
+      "risk_total": 507.5
     },
     {
       "component": "pillow",
@@ -25,7 +25,7 @@
       "fixes": 69,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 3577.6
+      "risk_total": 3608.7
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.4,
-      "risk_total": 2234.5
+      "risk_total": 2234.8
     },
     {
       "component": "jackson-databind",
@@ -75,7 +75,7 @@
       "fixes": 14,
       "kev": 0,
       "max_score": 70.1,
-      "risk_total": 603.4
+      "risk_total": 603.2
     },
     {
       "component": "lodash",
@@ -95,7 +95,7 @@
       "fixes": 10,
       "kev": 0,
       "max_score": 65.1,
-      "risk_total": 501.4
+      "risk_total": 501.5
     },
     {
       "component": "urllib3",
@@ -105,7 +105,7 @@
       "fixes": 11,
       "kev": 0,
       "max_score": 65.0,
-      "risk_total": 555.9
+      "risk_total": 555.7
     },
     {
       "component": "requests",
@@ -125,7 +125,7 @@
       "fixes": 5,
       "kev": 0,
       "max_score": 60.9,
-      "risk_total": 250.3
+      "risk_total": 250.4
     },
     {
       "component": "flask",
@@ -636,10 +636,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.03188,
-      "score": 69.4,
+      "score": 69.5,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 30.8,
+        "exploitation": 30.9,
         "severity": 19.6,
         "asset_value": 12,
         "exposure": 7
@@ -2242,10 +2242,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01909,
-      "score": 61.9,
+      "score": 62.0,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 27.9,
+        "exploitation": 28.0,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -3056,10 +3056,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01113,
-      "score": 52.7,
+      "score": 52.8,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 23.1,
+        "exploitation": 23.2,
         "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
@@ -3242,6 +3242,28 @@
       }
     },
     {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112902",
+      "osv_id": "GHSA-xvh5-g6gv-559v",
+      "summary": " Pillow: Memory disclosure and segfault in libtiff encoder via crafted TIFF tags",
+      "cvss": 8.8,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00495,
+      "score": 51.5,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 14.9,
+        "severity": 17.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "werkzeug",
       "ecosystem": "PyPI",
       "installed": "1.0.1",
@@ -3386,10 +3408,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00649,
-      "score": 50.7,
+      "score": 50.8,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.9,
+        "exploitation": 18.0,
         "severity": 13.8,
         "asset_value": 12,
         "exposure": 7
@@ -3408,10 +3430,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00892,
-      "score": 50.6,
+      "score": 50.7,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 20.8,
+        "exploitation": 20.9,
         "severity": 10.8,
         "asset_value": 12,
         "exposure": 7
@@ -3518,10 +3540,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00631,
-      "score": 49.2,
+      "score": 49.3,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.6,
+        "exploitation": 17.7,
         "severity": 12.6,
         "asset_value": 12,
         "exposure": 7
@@ -3545,6 +3567,50 @@
       "breakdown": {
         "exploitation": 13.6,
         "severity": 16.4,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112899",
+      "osv_id": "GHSA-vx6w-vv9f-6gvg",
+      "summary": "Pillow: EPS load(scale) lets Ghostscript render past the decompression bomb limit",
+      "cvss": 6.9,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00538,
+      "score": 48.7,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 15.9,
+        "severity": 13.8,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "log4j-core",
+      "ecosystem": "Maven",
+      "installed": "2.14.1",
+      "id": "CVE-2026-34479",
+      "osv_id": "GHSA-h383-gmxw-35v2",
+      "summary": "Apache Log4j 1 to Log4j 2 bridge: silent log event loss in Log4j1XmlLayout due to unescaped XML 1.0 forbidden characters",
+      "cvss": 6.9,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.25.4",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00535,
+      "score": 48.7,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 15.9,
+        "severity": 13.8,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3606,28 +3672,6 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00532,
-      "score": 48.6,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 15.8,
-        "severity": 13.8,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "log4j-core",
-      "ecosystem": "Maven",
-      "installed": "2.14.1",
-      "id": "CVE-2026-34479",
-      "osv_id": "GHSA-h383-gmxw-35v2",
-      "summary": "Apache Log4j 1 to Log4j 2 bridge: silent log event loss in Log4j1XmlLayout due to unescaped XML 1.0 forbidden characters",
-      "cvss": 6.9,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.25.4",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00535,
       "score": 48.6,
       "priority": "P4",
       "breakdown": {
@@ -3760,35 +3804,13 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00956,
-      "score": 47.5,
+      "score": 47.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 21.5,
+        "exploitation": 21.6,
         "severity": 11.0,
         "asset_value": 12,
         "exposure": 3
-      }
-    },
-    {
-      "component": "cryptography",
-      "ecosystem": "PyPI",
-      "installed": "3.3.1",
-      "id": "CVE-2026-26007",
-      "osv_id": "GHSA-r6ph-v2qm-q3c2",
-      "summary": "cryptography Vulnerable to a Subgroup Attack Due to Missing Subgroup Validation for SECT Curves",
-      "cvss": 8.2,
-      "attack_vector": "NETWORK",
-      "fixed_in": "46.0.5",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.0039,
-      "score": 47.0,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 11.6,
-        "severity": 16.4,
-        "asset_value": 12,
-        "exposure": 7
       }
     },
     {
@@ -3804,11 +3826,33 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00807,
-      "score": 46.9,
+      "score": 47.0,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 19.9,
+        "exploitation": 20.0,
         "severity": 8.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "cryptography",
+      "ecosystem": "PyPI",
+      "installed": "3.3.1",
+      "id": "CVE-2026-26007",
+      "osv_id": "GHSA-r6ph-v2qm-q3c2",
+      "summary": "cryptography Vulnerable to a Subgroup Attack Due to Missing Subgroup Validation for SECT Curves",
+      "cvss": 8.2,
+      "attack_vector": "NETWORK",
+      "fixed_in": "46.0.5",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00384,
+      "score": 46.8,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 11.4,
+        "severity": 16.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4442,10 +4486,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00331,
-      "score": 38.9,
+      "score": 38.8,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 9.3,
+        "exploitation": 9.2,
         "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
@@ -4530,33 +4574,11 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00206,
-      "score": 38.0,
+      "score": 37.9,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 3.8,
+        "exploitation": 3.7,
         "severity": 15.2,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112902",
-      "osv_id": "GHSA-xvh5-g6gv-559v",
-      "summary": " Pillow: Memory disclosure and segfault in libtiff encoder via crafted TIFF tags",
-      "cvss": 8.8,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.0,
-      "score": 36.6,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 0.0,
-        "severity": 17.6,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4689,28 +4711,6 @@
       "breakdown": {
         "exploitation": 0.0,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112899",
-      "osv_id": "GHSA-vx6w-vv9f-6gvg",
-      "summary": "Pillow: EPS load(scale) lets Ghostscript render past the decompression bomb limit",
-      "cvss": 6.9,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.0,
-      "score": 32.8,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 0.0,
-        "severity": 13.8,
         "asset_value": 12,
         "exposure": 7
       }
