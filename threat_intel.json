@@ -126,7 +126,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-125",
     "epss": 0.0023,
-    "epss_percentile": 0.13888,
+    "epss_percentile": 0.13891,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -138,7 +138,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-125",
     "epss": 0.00244,
-    "epss_percentile": 0.15705,
+    "epss_percentile": 0.15706,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -150,7 +150,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-120",
     "epss": 0.00262,
-    "epss_percentile": 0.18071,
+    "epss_percentile": 0.18073,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -162,7 +162,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-416",
     "epss": 0.00219,
-    "epss_percentile": 0.12435,
+    "epss_percentile": 0.12434,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -174,7 +174,7 @@
     "attack_vector": "LOCAL",
     "cwe": "NVD-CWE-noinfo",
     "epss": 0.00226,
-    "epss_percentile": 0.13384,
+    "epss_percentile": 0.13388,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -258,7 +258,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-416",
     "epss": 0.00313,
-    "epss_percentile": 0.2431,
+    "epss_percentile": 0.24339,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -270,7 +270,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-476",
     "epss": 0.00226,
-    "epss_percentile": 0.13351,
+    "epss_percentile": 0.13348,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -306,7 +306,7 @@
     "attack_vector": "NETWORK",
     "cwe": "NVD-CWE-noinfo",
     "epss": 0.15053,
-    "epss_percentile": 0.96743,
+    "epss_percentile": 0.96747,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -354,7 +354,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-522",
     "epss": 0.01149,
-    "epss_percentile": 0.66995,
+    "epss_percentile": 0.67044,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -366,7 +366,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-416",
     "epss": 0.13443,
-    "epss_percentile": 0.96448,
+    "epss_percentile": 0.96453,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -414,7 +414,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-20",
     "epss": 0.00468,
-    "epss_percentile": 0.40697,
+    "epss_percentile": 0.40756,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -438,7 +438,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-862",
     "epss": 0.00643,
-    "epss_percentile": 0.51,
+    "epss_percentile": 0.51065,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -462,7 +462,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-295",
     "epss": 0.00704,
-    "epss_percentile": 0.53506,
+    "epss_percentile": 0.53562,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -486,7 +486,7 @@
     "attack_vector": "NETWORK",
     "cwe": "NVD-CWE-noinfo",
     "epss": 0.00902,
-    "epss_percentile": 0.59901,
+    "epss_percentile": 0.59956,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -498,7 +498,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-284",
     "epss": 0.00902,
-    "epss_percentile": 0.59901,
+    "epss_percentile": 0.59956,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -510,7 +510,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-281",
     "epss": 0.00526,
-    "epss_percentile": 0.44749,
+    "epss_percentile": 0.44805,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -534,7 +534,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-200",
     "epss": 0.00487,
-    "epss_percentile": 0.42096,
+    "epss_percentile": 0.42157,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -546,7 +546,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-20",
     "epss": 0.00625,
-    "epss_percentile": 0.50161,
+    "epss_percentile": 0.50226,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -558,7 +558,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-416",
     "epss": 0.00295,
-    "epss_percentile": 0.22254,
+    "epss_percentile": 0.22275,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -570,7 +570,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-787",
     "epss": 0.00222,
-    "epss_percentile": 0.12859,
+    "epss_percentile": 0.1286,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -582,7 +582,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-787",
     "epss": 0.00667,
-    "epss_percentile": 0.52072,
+    "epss_percentile": 0.52137,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -594,7 +594,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-440",
     "epss": 0.02323,
-    "epss_percentile": 0.83556,
+    "epss_percentile": 0.83581,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -606,7 +606,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-606",
     "epss": 0.02303,
-    "epss_percentile": 0.83405,
+    "epss_percentile": 0.8343,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -618,7 +618,7 @@
     "attack_vector": "ADJACENT_NETWORK",
     "cwe": "CWE-94",
     "epss": 0.03191,
-    "epss_percentile": 0.88157,
+    "epss_percentile": 0.88175,
     "in_kev": true,
     "kev_date_added": "2024-01-17",
     "ransomware": false
@@ -642,7 +642,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-79",
     "epss": 0.00395,
-    "epss_percentile": 0.33944,
+    "epss_percentile": 0.3399,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -654,7 +654,7 @@
     "attack_vector": "PHYSICAL",
     "cwe": "CWE-613",
     "epss": 0.00503,
-    "epss_percentile": 0.43223,
+    "epss_percentile": 0.43277,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -666,7 +666,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-79",
     "epss": 0.00509,
-    "epss_percentile": 0.43644,
+    "epss_percentile": 0.43702,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -678,7 +678,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-79",
     "epss": 0.00379,
-    "epss_percentile": 0.32086,
+    "epss_percentile": 0.32131,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -702,7 +702,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-843",
     "epss": 0.0094,
-    "epss_percentile": 0.61107,
+    "epss_percentile": 0.61161,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -714,7 +714,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-476",
     "epss": 0.03187,
-    "epss_percentile": 0.88141,
+    "epss_percentile": 0.8816,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -726,7 +726,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-416",
     "epss": 0.0048,
-    "epss_percentile": 0.4161,
+    "epss_percentile": 0.41669,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -738,7 +738,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-416",
     "epss": 0.00382,
-    "epss_percentile": 0.32346,
+    "epss_percentile": 0.3239,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -750,7 +750,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-295",
     "epss": 0.01102,
-    "epss_percentile": 0.65857,
+    "epss_percentile": 0.65906,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -762,7 +762,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-79",
     "epss": 0.0032,
-    "epss_percentile": 0.25132,
+    "epss_percentile": 0.25161,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -774,7 +774,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-416",
     "epss": 0.00801,
-    "epss_percentile": 0.5681,
+    "epss_percentile": 0.5687,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -786,7 +786,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-436",
     "epss": 0.01681,
-    "epss_percentile": 0.77053,
+    "epss_percentile": 0.7709,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -798,7 +798,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-693",
     "epss": 0.01177,
-    "epss_percentile": 0.67743,
+    "epss_percentile": 0.67791,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -810,7 +810,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-122",
     "epss": 0.0326,
-    "epss_percentile": 0.88427,
+    "epss_percentile": 0.88445,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -822,7 +822,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-416",
     "epss": 0.00849,
-    "epss_percentile": 0.58291,
+    "epss_percentile": 0.5835,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -834,7 +834,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-287",
     "epss": 0.12661,
-    "epss_percentile": 0.96273,
+    "epss_percentile": 0.96278,
     "in_kev": true,
     "kev_date_added": "2024-02-15",
     "ransomware": false
@@ -846,7 +846,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-347",
     "epss": 0.00632,
-    "epss_percentile": 0.50486,
+    "epss_percentile": 0.50551,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -858,7 +858,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-94",
     "epss": 0.01363,
-    "epss_percentile": 0.71897,
+    "epss_percentile": 0.71939,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -870,7 +870,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-94",
     "epss": 0.01504,
-    "epss_percentile": 0.7445,
+    "epss_percentile": 0.74491,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -882,7 +882,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-94",
     "epss": 0.01768,
-    "epss_percentile": 0.78205,
+    "epss_percentile": 0.78241,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -894,7 +894,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-209",
     "epss": 0.14286,
-    "epss_percentile": 0.96616,
+    "epss_percentile": 0.96621,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -906,7 +906,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-863",
     "epss": 0.0074,
-    "epss_percentile": 0.54803,
+    "epss_percentile": 0.54863,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -918,7 +918,7 @@
     "attack_vector": "NETWORK",
     "cwe": "NVD-CWE-noinfo",
     "epss": 0.01048,
-    "epss_percentile": 0.64382,
+    "epss_percentile": 0.64432,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -930,7 +930,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-601",
     "epss": 0.02573,
-    "epss_percentile": 0.85247,
+    "epss_percentile": 0.8527,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -942,7 +942,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-327",
     "epss": 0.00573,
-    "epss_percentile": 0.47507,
+    "epss_percentile": 0.4757,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -954,7 +954,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-89",
     "epss": 0.00461,
-    "epss_percentile": 0.4013,
+    "epss_percentile": 0.40188,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -966,7 +966,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-444",
     "epss": 0.01637,
-    "epss_percentile": 0.76431,
+    "epss_percentile": 0.76469,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -978,7 +978,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-459",
     "epss": 0.02313,
-    "epss_percentile": 0.83483,
+    "epss_percentile": 0.83508,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -990,7 +990,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-79",
     "epss": 0.00213,
-    "epss_percentile": 0.11682,
+    "epss_percentile": 0.1168,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1002,7 +1002,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-862",
     "epss": 0.01015,
-    "epss_percentile": 0.63424,
+    "epss_percentile": 0.63475,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1014,7 +1014,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-20",
     "epss": 0.23072,
-    "epss_percentile": 0.97764,
+    "epss_percentile": 0.97767,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1026,7 +1026,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-79",
     "epss": 0.0088,
-    "epss_percentile": 0.59275,
+    "epss_percentile": 0.59333,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1038,7 +1038,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-113",
     "epss": 0.02874,
-    "epss_percentile": 0.86888,
+    "epss_percentile": 0.86907,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1050,7 +1050,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-400",
     "epss": 0.0125,
-    "epss_percentile": 0.69523,
+    "epss_percentile": 0.69569,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1061,8 +1061,8 @@
     "cvss": 5.9,
     "attack_vector": "NETWORK",
     "cwe": "CWE-1325",
-    "epss": 0.52421,
-    "epss_percentile": 0.98969,
+    "epss": 0.59302,
+    "epss_percentile": 0.99124,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1074,7 +1074,7 @@
     "attack_vector": "NETWORK",
     "cwe": "NVD-CWE-noinfo",
     "epss": 0.70785,
-    "epss_percentile": 0.99401,
+    "epss_percentile": 0.99402,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1086,7 +1086,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-426",
     "epss": 0.0682,
-    "epss_percentile": 0.94048,
+    "epss_percentile": 0.94056,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1098,7 +1098,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-59",
     "epss": 0.01155,
-    "epss_percentile": 0.67161,
+    "epss_percentile": 0.6721,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1110,7 +1110,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-416",
     "epss": 0.0156,
-    "epss_percentile": 0.75335,
+    "epss_percentile": 0.75374,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1122,7 +1122,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-122",
     "epss": 0.0058,
-    "epss_percentile": 0.47897,
+    "epss_percentile": 0.4796,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1134,7 +1134,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-131",
     "epss": 0.00196,
-    "epss_percentile": 0.09383,
+    "epss_percentile": 0.09374,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1146,7 +1146,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-667",
     "epss": 0.00151,
-    "epss_percentile": 0.04322,
+    "epss_percentile": 0.04308,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1158,7 +1158,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-476",
     "epss": 0.00846,
-    "epss_percentile": 0.58232,
+    "epss_percentile": 0.58292,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1170,7 +1170,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-89",
     "epss": 0.00847,
-    "epss_percentile": 0.58256,
+    "epss_percentile": 0.58315,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1182,7 +1182,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-434",
     "epss": 0.01476,
-    "epss_percentile": 0.73969,
+    "epss_percentile": 0.7401,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1194,7 +1194,7 @@
     "attack_vector": "LOCAL",
     "cwe": "CWE-532",
     "epss": 0.00112,
-    "epss_percentile": 0.01361,
+    "epss_percentile": 0.0136,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1206,7 +1206,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-20",
     "epss": 0.00778,
-    "epss_percentile": 0.56039,
+    "epss_percentile": 0.56095,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1217,8 +1217,8 @@
     "cvss": 5.3,
     "attack_vector": "NETWORK",
     "cwe": "CWE-681",
-    "epss": 0.00798,
-    "epss_percentile": 0.56689,
+    "epss": 0.00791,
+    "epss_percentile": 0.56541,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1230,7 +1230,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-434",
     "epss": 0.01354,
-    "epss_percentile": 0.71718,
+    "epss_percentile": 0.71762,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1242,7 +1242,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-1286",
     "epss": 0.00885,
-    "epss_percentile": 0.59399,
+    "epss_percentile": 0.59457,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1254,7 +1254,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-436",
     "epss": 0.00433,
-    "epss_percentile": 0.37757,
+    "epss_percentile": 0.37807,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1278,7 +1278,7 @@
     "attack_vector": "NETWORK",
     "cwe": "CWE-79",
     "epss": 0.0072,
-    "epss_percentile": 0.54112,
+    "epss_percentile": 0.54172,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
@@ -1290,7 +1290,7 @@
     "attack_vector": "NETWORK",
     "cwe": "NVD-CWE-noinfo",
     "epss": 0.00713,
-    "epss_percentile": 0.53816,
+    "epss_percentile": 0.53875,
     "in_kev": false,
     "kev_date_added": null,
     "ransomware": false
