@@ -25,7 +25,7 @@
       "fixes": 71,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 3703.6
+      "risk_total": 3704.3
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.4,
-      "risk_total": 2237.5
+      "risk_total": 2237.7
     },
     {
       "component": "jackson-databind",
@@ -45,7 +45,7 @@
       "fixes": 50,
       "kev": 0,
       "max_score": 72.9,
-      "risk_total": 3248.3
+      "risk_total": 3251.8
     },
     {
       "component": "pyyaml",
@@ -95,7 +95,7 @@
       "fixes": 10,
       "kev": 0,
       "max_score": 65.2,
-      "risk_total": 502.5
+      "risk_total": 502.6
     },
     {
       "component": "urllib3",
@@ -134,8 +134,8 @@
       "upgrade_to": "3.1.3",
       "fixes": 2,
       "kev": 0,
-      "max_score": 58.4,
-      "risk_total": 94.2
+      "max_score": 58.5,
+      "risk_total": 94.3
     }
   ],
   "findings": [
@@ -2374,10 +2374,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01134,
-      "score": 60.0,
+      "score": 60.1,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 23.4,
+        "exploitation": 23.5,
         "severity": 17.6,
         "asset_value": 12,
         "exposure": 7
@@ -2616,10 +2616,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.0125,
-      "score": 58.4,
+      "score": 58.5,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 24.4,
+        "exploitation": 24.5,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2802,6 +2802,28 @@
       }
     },
     {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2026-112398",
+      "osv_id": "GHSA-5x8w-8jj5-q52h",
+      "summary": "Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution",
+      "cvss": 9.2,
+      "attack_vector": "NETWORK",
+      "fixed_in": "13.0.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00696,
+      "score": 56.2,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 18.8,
+        "severity": 18.4,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "urllib3",
       "ecosystem": "PyPI",
       "installed": "1.26.4",
@@ -2819,28 +2841,6 @@
       "breakdown": {
         "exploitation": 25.3,
         "severity": 11.8,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2026-112398",
-      "osv_id": "GHSA-5x8w-8jj5-q52h",
-      "summary": "Pillow: Heap buffer overflow in FlashPix (FPX) JPEG decoding leads to code execution",
-      "cvss": 9.2,
-      "attack_vector": "NETWORK",
-      "fixed_in": "13.0.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00696,
-      "score": 56.1,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 18.7,
-        "severity": 18.4,
         "asset_value": 12,
         "exposure": 7
       }
@@ -2990,10 +2990,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.5,
+      "score": 53.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.1,
+        "exploitation": 17.2,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -3012,10 +3012,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.5,
+      "score": 53.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.1,
+        "exploitation": 17.2,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -3034,10 +3034,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.5,
+      "score": 53.6,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.1,
+        "exploitation": 17.2,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -3462,6 +3462,50 @@
       }
     },
     {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
+      "id": "CVE-2026-91777",
+      "osv_id": "GHSA-cxp5-3px4-pw24",
+      "summary": "jackson-databind quadratic forward-reference completion ",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.18.11",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00563,
+      "score": 50.6,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.6,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
+      "id": "CVE-2026-91776",
+      "osv_id": "GHSA-wv8q-qhhj-9h54",
+      "summary": "jackson-databind retains every unknown raw type ID ",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.18.11",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00563,
+      "score": 50.6,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.6,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -3638,50 +3682,6 @@
       }
     },
     {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
-      "id": "CVE-2026-91777",
-      "osv_id": "GHSA-cxp5-3px4-pw24",
-      "summary": "jackson-databind quadratic forward-reference completion ",
-      "cvss": 7.5,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.18.11",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00487,
-      "score": 48.9,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 14.9,
-        "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
-      "id": "CVE-2026-91776",
-      "osv_id": "GHSA-wv8q-qhhj-9h54",
-      "summary": "jackson-databind retains every unknown raw type ID ",
-      "cvss": 7.5,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.18.11",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00487,
-      "score": 48.9,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 14.9,
-        "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -3804,10 +3804,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00547,
-      "score": 47.8,
+      "score": 47.9,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 16.2,
+        "exploitation": 16.3,
         "severity": 12.6,
         "asset_value": 12,
         "exposure": 7
@@ -3924,6 +3924,28 @@
       }
     },
     {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
+      "id": "CVE-2026-19032",
+      "osv_id": "GHSA-wjgm-6hv5-3cvf",
+      "summary": "jackson-databind: Path Deserialization Missing Scheme Allowlist for FileSystemProvider Resolution",
+      "cvss": 5.3,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.18.10",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00572,
+      "score": 46.4,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 16.8,
+        "severity": 10.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "django",
       "ecosystem": "PyPI",
       "installed": "3.2.0",
@@ -3985,28 +4007,6 @@
       "breakdown": {
         "exploitation": 9.5,
         "severity": 17.8,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
-      "id": "CVE-2026-19032",
-      "osv_id": "GHSA-wjgm-6hv5-3cvf",
-      "summary": "jackson-databind: Path Deserialization Missing Scheme Allowlist for FileSystemProvider Resolution",
-      "cvss": 5.3,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.18.10",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00572,
-      "score": 46.3,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 16.7,
-        "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4112,10 +4112,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00384,
-      "score": 44.7,
+      "score": 44.8,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 11.5,
+        "exploitation": 11.6,
         "severity": 14.2,
         "asset_value": 12,
         "exposure": 7
@@ -4222,10 +4222,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00345,
-      "score": 43.1,
+      "score": 43.2,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 9.9,
+        "exploitation": 10.0,
         "severity": 14.2,
         "asset_value": 12,
         "exposure": 7
@@ -4342,6 +4342,28 @@
       }
     },
     {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2022-45199",
+      "osv_id": "PYSEC-2022-42980",
+      "summary": "",
+      "cvss": null,
+      "attack_vector": null,
+      "fixed_in": "9.3.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.01501,
+      "score": 41.2,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 26.2,
+        "severity": 0,
+        "asset_value": 12,
+        "exposure": 3
+      }
+    },
+    {
       "component": "jinja2",
       "ecosystem": "PyPI",
       "installed": "2.11.2",
@@ -4359,28 +4381,6 @@
       "breakdown": {
         "exploitation": 15.3,
         "severity": 10.8,
-        "asset_value": 12,
-        "exposure": 3
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2022-45199",
-      "osv_id": "PYSEC-2022-42980",
-      "summary": "",
-      "cvss": null,
-      "attack_vector": null,
-      "fixed_in": "9.3.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.01501,
-      "score": 41.1,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 26.1,
-        "severity": 0,
         "asset_value": 12,
         "exposure": 3
       }
@@ -4618,10 +4618,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00367,
-      "score": 36.0,
+      "score": 36.1,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 10.8,
+        "exploitation": 10.9,
         "severity": 6.2,
         "asset_value": 12,
         "exposure": 7
