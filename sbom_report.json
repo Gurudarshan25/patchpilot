@@ -25,7 +25,7 @@
       "fixes": 71,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 3704.3
+      "risk_total": 3703.9
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.4,
-      "risk_total": 2237.7
+      "risk_total": 2237.6
     },
     {
       "component": "jackson-databind",
@@ -105,7 +105,7 @@
       "fixes": 11,
       "kev": 0,
       "max_score": 65.0,
-      "risk_total": 556.7
+      "risk_total": 557.1
     },
     {
       "component": "requests",
@@ -2990,10 +2990,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.6,
+      "score": 53.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.2,
+        "exploitation": 17.1,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -3012,10 +3012,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.6,
+      "score": 53.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.2,
+        "exploitation": 17.1,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -3034,10 +3034,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00594,
-      "score": 53.6,
+      "score": 53.5,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 17.2,
+        "exploitation": 17.1,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -4122,6 +4122,28 @@
       }
     },
     {
+      "component": "urllib3",
+      "ecosystem": "PyPI",
+      "installed": "1.26.4",
+      "id": "CVE-2025-50181",
+      "osv_id": "GHSA-pq67-6m6q-mj2v",
+      "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+      "cvss": 5.3,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.5.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00494,
+      "score": 44.6,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 15.0,
+        "severity": 10.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "django",
       "ecosystem": "PyPI",
       "installed": "3.2.0",
@@ -4188,28 +4210,6 @@
       }
     },
     {
-      "component": "urllib3",
-      "ecosystem": "PyPI",
-      "installed": "1.26.4",
-      "id": "CVE-2025-50181",
-      "osv_id": "GHSA-pq67-6m6q-mj2v",
-      "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
-      "cvss": 5.3,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.5.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00474,
-      "score": 44.1,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 14.5,
-        "severity": 10.6,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -4222,10 +4222,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00345,
-      "score": 43.2,
+      "score": 43.1,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 10.0,
+        "exploitation": 9.9,
         "severity": 14.2,
         "asset_value": 12,
         "exposure": 7
@@ -4596,10 +4596,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00206,
-      "score": 38.0,
+      "score": 37.9,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 3.8,
+        "exploitation": 3.7,
         "severity": 15.2,
         "asset_value": 12,
         "exposure": 7
@@ -4618,10 +4618,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00367,
-      "score": 36.1,
+      "score": 36.0,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 10.9,
+        "exploitation": 10.8,
         "severity": 6.2,
         "asset_value": 12,
         "exposure": 7

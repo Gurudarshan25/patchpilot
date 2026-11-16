@@ -2300,31 +2300,6 @@
     "rank": 92
   },
   {
-    "asset": "fw-edge",
-    "cve": "CVE-2024-0011",
-    "software": "PAN-OS",
-    "fix": "Apply vendor update",
-    "fix_hours": 1,
-    "source": "background",
-    "key": "fw-edge|CVE-2024-0011",
-    "base_score": 50.0,
-    "score": 50.0,
-    "breakdown": {
-      "exploitation": 11.4,
-      "severity": 8.6,
-      "asset_value": 15,
-      "exposure": 15,
-      "attack_path": 0
-    },
-    "priority": "P4",
-    "deadline": "fix within 90 days",
-    "cvss": 4.3,
-    "epss": 0.00379,
-    "in_kev": false,
-    "ransomware": false,
-    "rank": 93
-  },
-  {
     "asset": "dc-01",
     "cve": "CVE-2024-22318",
     "software": "Windows Server",
@@ -2345,6 +2320,31 @@
     "deadline": "fix within 90 days",
     "cvss": 5.1,
     "epss": 0.00573,
+    "in_kev": false,
+    "ransomware": false,
+    "rank": 93
+  },
+  {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-0011",
+    "software": "PAN-OS",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background",
+    "key": "fw-edge|CVE-2024-0011",
+    "base_score": 49.9,
+    "score": 49.9,
+    "breakdown": {
+      "exploitation": 11.3,
+      "severity": 8.6,
+      "asset_value": 15,
+      "exposure": 15,
+      "attack_path": 0
+    },
+    "priority": "P4",
+    "deadline": "fix within 90 days",
+    "cvss": 4.3,
+    "epss": 0.00379,
     "in_kev": false,
     "ransomware": false,
     "rank": 94
@@ -2457,10 +2457,10 @@
     "fix_hours": 2,
     "source": "background",
     "key": "backup-01|CVE-2021-47040",
-    "base_score": 45.0,
-    "score": 45.0,
+    "base_score": 44.9,
+    "score": 44.9,
     "breakdown": {
-      "exploitation": 6.4,
+      "exploitation": 6.3,
       "severity": 15.6,
       "asset_value": 20,
       "exposure": 3,
