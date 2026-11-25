@@ -3,31 +3,31 @@
     "hours_per_week": 20,
     "kev_late": 25,
     "p1_late": 15,
-    "all_late": 80
+    "all_late": 67
   },
   {
     "hours_per_week": 30,
-    "kev_late": 24,
-    "p1_late": 14,
-    "all_late": 54
+    "kev_late": 25,
+    "p1_late": 15,
+    "all_late": 47
   },
   {
     "hours_per_week": 40,
     "kev_late": 23,
     "p1_late": 13,
-    "all_late": 36
+    "all_late": 34
   },
   {
     "hours_per_week": 60,
-    "kev_late": 20,
-    "p1_late": 10,
-    "all_late": 23
+    "kev_late": 19,
+    "p1_late": 11,
+    "all_late": 22
   },
   {
     "hours_per_week": 80,
-    "kev_late": 12,
+    "kev_late": 9,
     "p1_late": 9,
-    "all_late": 15
+    "all_late": 11
   },
   {
     "hours_per_week": 120,
