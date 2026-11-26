@@ -44,7 +44,7 @@
     "priority": "P1",
     "deadline": "fix within 48 hours",
     "cvss": 9.4,
-    "epss": 0.72378,
+    "epss": 0.99999,
     "in_kev": true,
     "ransomware": true,
     "rank": 2
@@ -1632,10 +1632,10 @@
     "fix_hours": 1,
     "source": "background",
     "key": "laptop-fleet|CVE-2024-0518",
-    "base_score": 59.8,
-    "score": 59.8,
+    "base_score": 59.9,
+    "score": 59.9,
     "breakdown": {
-      "exploitation": 18.2,
+      "exploitation": 18.3,
       "severity": 17.6,
       "asset_value": 9,
       "exposure": 15,

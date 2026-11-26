@@ -15,7 +15,7 @@
       "fixes": 8,
       "kev": 2,
       "max_score": 84.0,
-      "risk_total": 509.8
+      "risk_total": 509.9
     },
     {
       "component": "pillow",
@@ -25,7 +25,7 @@
       "fixes": 71,
       "kev": 1,
       "max_score": 76.6,
-      "risk_total": 3675.2
+      "risk_total": 3675.3
     },
     {
       "component": "django",
@@ -35,7 +35,7 @@
       "fixes": 38,
       "kev": 0,
       "max_score": 73.3,
-      "risk_total": 2182.7
+      "risk_total": 2183.0
     },
     {
       "component": "jackson-databind",
@@ -45,7 +45,7 @@
       "fixes": 50,
       "kev": 0,
       "max_score": 73.1,
-      "risk_total": 3245.9
+      "risk_total": 3246.2
     },
     {
       "component": "pyyaml",
@@ -75,7 +75,7 @@
       "fixes": 14,
       "kev": 0,
       "max_score": 70.4,
-      "risk_total": 597.7
+      "risk_total": 597.9
     },
     {
       "component": "lodash",
@@ -95,7 +95,7 @@
       "fixes": 10,
       "kev": 0,
       "max_score": 66.7,
-      "risk_total": 509.6
+      "risk_total": 509.7
     },
     {
       "component": "urllib3",
@@ -105,7 +105,7 @@
       "fixes": 11,
       "kev": 0,
       "max_score": 65.9,
-      "risk_total": 557.0
+      "risk_total": 557.1
     },
     {
       "component": "requests",
@@ -891,6 +891,28 @@
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
+      "id": "CVE-2020-11112",
+      "osv_id": "GHSA-58pp-9c76-5625",
+      "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
+      "cvss": 8.8,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.9.10.4",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.03673,
+      "score": 68.3,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 31.7,
+        "severity": 17.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "jackson-databind",
+      "ecosystem": "Maven",
+      "installed": "2.9.10",
       "id": "CVE-2020-25649",
       "osv_id": "GHSA-288c-cq4h-88gq",
       "summary": "XML External Entity (XXE) Injection in Jackson Databind",
@@ -905,28 +927,6 @@
       "breakdown": {
         "exploitation": 34.2,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "jackson-databind",
-      "ecosystem": "Maven",
-      "installed": "2.9.10",
-      "id": "CVE-2020-11112",
-      "osv_id": "GHSA-58pp-9c76-5625",
-      "summary": "jackson-databind mishandles the interaction between serialization gadgets and typing",
-      "cvss": 8.8,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.9.10.4",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.03673,
-      "score": 68.2,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 31.6,
-        "severity": 17.6,
         "asset_value": 12,
         "exposure": 7
       }
@@ -1515,7 +1515,7 @@
       "fixed_in": "8.1.2",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.04851,
+      "epss": 0.0491,
       "score": 66.5,
       "priority": "P3",
       "breakdown": {
@@ -1636,28 +1636,6 @@
       }
     },
     {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2022-41323",
-      "osv_id": "GHSA-qrw5-5h28-6cmg",
-      "summary": "Django denial-of-service vulnerability in internationalized URLs",
-      "cvss": 7.5,
-      "attack_vector": "NETWORK",
-      "fixed_in": "3.2.16",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.03454,
-      "score": 65.4,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 31.4,
-        "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
@@ -1669,11 +1647,11 @@
       "fixed_in": "2.12.7.1",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.03414,
-      "score": 65.4,
+      "epss": 0.03488,
+      "score": 65.5,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 31.4,
+        "exploitation": 31.5,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -1691,7 +1669,29 @@
       "fixed_in": "2.12.7.1",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.03414,
+      "epss": 0.03488,
+      "score": 65.5,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 31.5,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "django",
+      "ecosystem": "PyPI",
+      "installed": "3.2.0",
+      "id": "CVE-2022-41323",
+      "osv_id": "GHSA-qrw5-5h28-6cmg",
+      "summary": "Django denial-of-service vulnerability in internationalized URLs",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "3.2.16",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.03454,
       "score": 65.4,
       "priority": "P3",
       "breakdown": {
@@ -1757,33 +1757,11 @@
       "fixed_in": "8.1.2",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.0317,
+      "epss": 0.03209,
       "score": 65.1,
       "priority": "P3",
       "breakdown": {
         "exploitation": 31.1,
-        "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "pillow",
-      "ecosystem": "PyPI",
-      "installed": "8.1.0",
-      "id": "CVE-2021-27923",
-      "osv_id": "GHSA-95q3-8gr9-gm8w",
-      "summary": "Pillow Denial of Service by Uncontrolled Resource Consumption",
-      "cvss": 7.5,
-      "attack_vector": "NETWORK",
-      "fixed_in": "8.1.2",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.03045,
-      "score": 64.9,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 30.9,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -1801,11 +1779,33 @@
       "fixed_in": "3.2.18",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.02999,
-      "score": 64.8,
+      "epss": 0.03102,
+      "score": 65.0,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 30.8,
+        "exploitation": 31.0,
+        "severity": 15.0,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
+      "component": "pillow",
+      "ecosystem": "PyPI",
+      "installed": "8.1.0",
+      "id": "CVE-2021-27923",
+      "osv_id": "GHSA-95q3-8gr9-gm8w",
+      "summary": "Pillow Denial of Service by Uncontrolled Resource Consumption",
+      "cvss": 7.5,
+      "attack_vector": "NETWORK",
+      "fixed_in": "8.1.2",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.03082,
+      "score": 65.0,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 31.0,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2396,10 +2396,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.01432,
-      "score": 59.6,
+      "score": 59.7,
       "priority": "P3",
       "breakdown": {
-        "exploitation": 25.6,
+        "exploitation": 25.7,
         "severity": 15.0,
         "asset_value": 12,
         "exposure": 7
@@ -2516,6 +2516,28 @@
       }
     },
     {
+      "component": "django",
+      "ecosystem": "PyPI",
+      "installed": "3.2.0",
+      "id": "CVE-2024-27351",
+      "osv_id": "GHSA-vm8q-m57g-pff3",
+      "summary": "Regular expression denial-of-service in Django",
+      "cvss": 5.3,
+      "attack_vector": "NETWORK",
+      "fixed_in": "3.2.25",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.02353,
+      "score": 59.2,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 29.6,
+        "severity": 10.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "werkzeug",
       "ecosystem": "PyPI",
       "installed": "1.0.1",
@@ -2533,28 +2555,6 @@
       "breakdown": {
         "exploitation": 25.2,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "django",
-      "ecosystem": "PyPI",
-      "installed": "3.2.0",
-      "id": "CVE-2024-27351",
-      "osv_id": "GHSA-vm8q-m57g-pff3",
-      "summary": "Regular expression denial-of-service in Django",
-      "cvss": 5.3,
-      "attack_vector": "NETWORK",
-      "fixed_in": "3.2.25",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.02353,
-      "score": 59.1,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 29.5,
-        "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
       }
@@ -3012,10 +3012,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00945,
-      "score": 53.6,
+      "score": 53.7,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 20.8,
+        "exploitation": 20.9,
         "severity": 13.8,
         "asset_value": 12,
         "exposure": 7
@@ -4144,6 +4144,28 @@
       }
     },
     {
+      "component": "urllib3",
+      "ecosystem": "PyPI",
+      "installed": "1.26.4",
+      "id": "CVE-2025-50181",
+      "osv_id": "GHSA-pq67-6m6q-mj2v",
+      "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+      "cvss": 5.3,
+      "attack_vector": "NETWORK",
+      "fixed_in": "2.5.0",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.00584,
+      "score": 44.3,
+      "priority": "P4",
+      "breakdown": {
+        "exploitation": 14.7,
+        "severity": 10.6,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "pillow",
       "ecosystem": "PyPI",
       "installed": "8.1.0",
@@ -4183,28 +4205,6 @@
       "breakdown": {
         "exploitation": 11.1,
         "severity": 14.2,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "urllib3",
-      "ecosystem": "PyPI",
-      "installed": "1.26.4",
-      "id": "CVE-2025-50181",
-      "osv_id": "GHSA-pq67-6m6q-mj2v",
-      "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
-      "cvss": 5.3,
-      "attack_vector": "NETWORK",
-      "fixed_in": "2.5.0",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.00584,
-      "score": 44.2,
-      "priority": "P4",
-      "breakdown": {
-        "exploitation": 14.6,
-        "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4398,10 +4398,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00262,
-      "score": 40.3,
+      "score": 40.2,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 3.9,
+        "exploitation": 3.8,
         "severity": 17.4,
         "asset_value": 12,
         "exposure": 7
@@ -4749,11 +4749,11 @@
       "fixed_in": "46.0.6",
       "in_kev": false,
       "ransomware": false,
-      "epss": 0.00193,
-      "score": 31.4,
+      "epss": 0.00207,
+      "score": 31.7,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 1.8,
+        "exploitation": 2.1,
         "severity": 10.6,
         "asset_value": 12,
         "exposure": 7
