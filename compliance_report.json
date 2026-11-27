@@ -1632,7 +1632,7 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "fw-edge|CVE-2024-3386",
+        "key": "dev-server|CVE-2024-32880",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 35,
@@ -1642,7 +1642,7 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "dev-server|CVE-2024-32880",
+        "key": "fw-edge|CVE-2024-3386",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 35,
@@ -2132,7 +2132,7 @@
         "deadline_date": "2026-10-31"
       },
       {
-        "key": "wiki|CVE-2024-21674",
+        "key": "fw-edge|CVE-2024-0010",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 72,
@@ -2142,7 +2142,7 @@
         "deadline_date": "2026-12-30"
       },
       {
-        "key": "fw-edge|CVE-2024-0010",
+        "key": "wiki|CVE-2024-21674",
         "priority": "P4",
         "in_kev": false,
         "fixed_on_day": 73,

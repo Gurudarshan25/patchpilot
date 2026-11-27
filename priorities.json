@@ -1007,10 +1007,10 @@
     "fix_hours": 3,
     "source": "background",
     "key": "web-shop|CVE-2024-23452",
-    "base_score": 70.8,
-    "score": 70.8,
+    "base_score": 70.9,
+    "score": 70.9,
     "breakdown": {
-      "exploitation": 28.8,
+      "exploitation": 28.9,
       "severity": 15.0,
       "asset_value": 12,
       "exposure": 15,
@@ -1207,10 +1207,10 @@
     "fix_hours": 2,
     "source": "background",
     "key": "db-customers|CVE-2024-27289",
-    "base_score": 66.6,
-    "score": 66.6,
+    "base_score": 66.7,
+    "score": 66.7,
     "breakdown": {
-      "exploitation": 23.4,
+      "exploitation": 23.5,
       "severity": 16.2,
       "asset_value": 20,
       "exposure": 7,
@@ -1257,10 +1257,10 @@
     "fix_hours": 1,
     "source": "background",
     "key": "web-shop|CVE-2024-22233",
-    "base_score": 66.1,
-    "score": 66.1,
+    "base_score": 66.2,
+    "score": 66.2,
     "breakdown": {
-      "exploitation": 24.1,
+      "exploitation": 24.2,
       "severity": 15.0,
       "asset_value": 12,
       "exposure": 15,
@@ -1650,6 +1650,31 @@
     "rank": 66
   },
   {
+    "asset": "fw-edge",
+    "cve": "CVE-2024-0007",
+    "software": "PAN-OS",
+    "fix": "Apply vendor update",
+    "fix_hours": 3,
+    "source": "background",
+    "key": "fw-edge|CVE-2024-0007",
+    "base_score": 59.2,
+    "score": 59.2,
+    "breakdown": {
+      "exploitation": 15.6,
+      "severity": 13.6,
+      "asset_value": 15,
+      "exposure": 15,
+      "attack_path": 0
+    },
+    "priority": "P3",
+    "deadline": "fix within 30 days",
+    "cvss": 6.8,
+    "epss": 0.00627,
+    "in_kev": false,
+    "ransomware": false,
+    "rank": 67
+  },
+  {
     "asset": "db-customers",
     "cve": "CVE-2024-2338",
     "software": "PostgreSQL",
@@ -1672,7 +1697,7 @@
     "epss": 0.00656,
     "in_kev": false,
     "ransomware": false,
-    "rank": 67
+    "rank": 68
   },
   {
     "asset": "dc-01",
@@ -1695,31 +1720,6 @@
     "deadline": "fix within 30 days",
     "cvss": 7.5,
     "epss": 0.0071,
-    "in_kev": false,
-    "ransomware": false,
-    "rank": 68
-  },
-  {
-    "asset": "fw-edge",
-    "cve": "CVE-2024-0007",
-    "software": "PAN-OS",
-    "fix": "Apply vendor update",
-    "fix_hours": 3,
-    "source": "background",
-    "key": "fw-edge|CVE-2024-0007",
-    "base_score": 59.1,
-    "score": 59.1,
-    "breakdown": {
-      "exploitation": 15.5,
-      "severity": 13.6,
-      "asset_value": 15,
-      "exposure": 15,
-      "attack_path": 0
-    },
-    "priority": "P3",
-    "deadline": "fix within 30 days",
-    "cvss": 6.8,
-    "epss": 0.00627,
     "in_kev": false,
     "ransomware": false,
     "rank": 69
@@ -2050,6 +2050,31 @@
     "rank": 82
   },
   {
+    "asset": "dev-server",
+    "cve": "CVE-2024-32880",
+    "software": "Python",
+    "fix": "Apply vendor update",
+    "fix_hours": 1,
+    "source": "background",
+    "key": "dev-server|CVE-2024-32880",
+    "base_score": 54.3,
+    "score": 54.3,
+    "breakdown": {
+      "exploitation": 26.1,
+      "severity": 18.2,
+      "asset_value": 3,
+      "exposure": 7,
+      "attack_path": 0
+    },
+    "priority": "P4",
+    "deadline": "fix within 90 days",
+    "cvss": 9.1,
+    "epss": 0.01494,
+    "in_kev": false,
+    "ransomware": false,
+    "rank": 83
+  },
+  {
     "asset": "fw-edge",
     "cve": "CVE-2024-3386",
     "software": "PAN-OS",
@@ -2072,32 +2097,32 @@
     "epss": 0.00537,
     "in_kev": false,
     "ransomware": false,
-    "rank": 83
+    "rank": 84
   },
   {
-    "asset": "dev-server",
-    "cve": "CVE-2024-32880",
-    "software": "Python",
+    "asset": "fw-edge",
+    "cve": "CVE-2024-0010",
+    "software": "PAN-OS",
     "fix": "Apply vendor update",
-    "fix_hours": 1,
+    "fix_hours": 3,
     "source": "background",
-    "key": "dev-server|CVE-2024-32880",
-    "base_score": 54.2,
-    "score": 54.2,
+    "key": "fw-edge|CVE-2024-0010",
+    "base_score": 54.0,
+    "score": 54.0,
     "breakdown": {
-      "exploitation": 26.0,
-      "severity": 18.2,
-      "asset_value": 3,
-      "exposure": 7,
+      "exploitation": 15.4,
+      "severity": 8.6,
+      "asset_value": 15,
+      "exposure": 15,
       "attack_path": 0
     },
     "priority": "P4",
     "deadline": "fix within 90 days",
-    "cvss": 9.1,
-    "epss": 0.01494,
+    "cvss": 4.3,
+    "epss": 0.00617,
     "in_kev": false,
     "ransomware": false,
-    "rank": 84
+    "rank": 85
   },
   {
     "asset": "wiki",
@@ -2120,31 +2145,6 @@
     "deadline": "fix within 90 days",
     "cvss": 7.5,
     "epss": 0.01485,
-    "in_kev": false,
-    "ransomware": false,
-    "rank": 85
-  },
-  {
-    "asset": "fw-edge",
-    "cve": "CVE-2024-0010",
-    "software": "PAN-OS",
-    "fix": "Apply vendor update",
-    "fix_hours": 3,
-    "source": "background",
-    "key": "fw-edge|CVE-2024-0010",
-    "base_score": 53.9,
-    "score": 53.9,
-    "breakdown": {
-      "exploitation": 15.3,
-      "severity": 8.6,
-      "asset_value": 15,
-      "exposure": 15,
-      "attack_path": 0
-    },
-    "priority": "P4",
-    "deadline": "fix within 90 days",
-    "cvss": 4.3,
-    "epss": 0.00617,
     "in_kev": false,
     "ransomware": false,
     "rank": 86

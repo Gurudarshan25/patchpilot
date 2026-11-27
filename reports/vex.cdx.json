@@ -1910,31 +1910,6 @@
       ]
     },
     {
-      "id": "CVE-2021-33503",
-      "affects": [
-        {
-          "ref": "pkg:pypi/urllib3@1.26.4"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-33503"
-      },
-      "ratings": [
-        {
-          "score": 7.5,
-          "method": "other"
-        }
-      ]
-    },
-    {
       "id": "CVE-2022-23833",
       "affects": [
         {
@@ -1951,6 +1926,31 @@
       "source": {
         "name": "NVD",
         "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23833"
+      },
+      "ratings": [
+        {
+          "score": 7.5,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2021-33503",
+      "affects": [
+        {
+          "ref": "pkg:pypi/urllib3@1.26.4"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-33503"
       },
       "ratings": [
         {
@@ -2885,31 +2885,6 @@
       ]
     },
     {
-      "id": "CVE-2025-64458",
-      "affects": [
-        {
-          "ref": "pkg:pypi/django@3.2.0"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64458"
-      },
-      "ratings": [
-        {
-          "score": 7.5,
-          "method": "other"
-        }
-      ]
-    },
-    {
       "id": "CVE-2023-43665",
       "affects": [
         {
@@ -2930,6 +2905,31 @@
       "ratings": [
         {
           "score": 5.9,
+          "method": "other"
+        }
+      ]
+    },
+    {
+      "id": "CVE-2025-64458",
+      "affects": [
+        {
+          "ref": "pkg:pypi/django@3.2.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-64458"
+      },
+      "ratings": [
+        {
+          "score": 7.5,
           "method": "other"
         }
       ]
@@ -4304,6 +4304,31 @@
       ]
     },
     {
+      "id": "CVE-2026-112899",
+      "affects": [
+        {
+          "ref": "pkg:pypi/pillow@8.1.0"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112899"
+      },
+      "ratings": [
+        {
+          "score": 6.9,
+          "method": "other"
+        }
+      ]
+    },
+    {
       "id": "CVE-2026-112391",
       "affects": [
         {
@@ -4349,31 +4374,6 @@
       "ratings": [
         {
           "score": 6.3,
-          "method": "other"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2026-112899",
-      "affects": [
-        {
-          "ref": "pkg:pypi/pillow@8.1.0"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112899"
-      },
-      "ratings": [
-        {
-          "score": 6.9,
           "method": "other"
         }
       ]
