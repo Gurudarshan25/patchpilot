@@ -1585,6 +1585,31 @@
       ]
     },
     {
+      "id": "CVE-2023-0286",
+      "affects": [
+        {
+          "ref": "pkg:pypi/cryptography@3.3.1"
+        }
+      ],
+      "analysis": {
+        "state": "in_triage",
+        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
+        "response": [
+          "update"
+        ]
+      },
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0286"
+      },
+      "ratings": [
+        {
+          "score": 7.4,
+          "method": "other"
+        }
+      ]
+    },
+    {
       "id": "CVE-2020-36518",
       "affects": [
         {
@@ -1630,31 +1655,6 @@
       "ratings": [
         {
           "score": 7.5,
-          "method": "other"
-        }
-      ]
-    },
-    {
-      "id": "CVE-2023-0286",
-      "affects": [
-        {
-          "ref": "pkg:pypi/cryptography@3.3.1"
-        }
-      ],
-      "analysis": {
-        "state": "in_triage",
-        "detail": "Known vulnerability in a used component; reachability not yet analysed.",
-        "response": [
-          "update"
-        ]
-      },
-      "source": {
-        "name": "NVD",
-        "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-0286"
-      },
-      "ratings": [
-        {
-          "score": 7.4,
           "method": "other"
         }
       ]

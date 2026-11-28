@@ -1057,10 +1057,10 @@
     "fix_hours": 2,
     "source": "background",
     "key": "web-shop|CVE-2023-47458",
-    "base_score": 68.7,
-    "score": 68.7,
+    "base_score": 68.8,
+    "score": 68.8,
     "breakdown": {
-      "exploitation": 22.1,
+      "exploitation": 22.2,
       "severity": 19.6,
       "asset_value": 12,
       "exposure": 15,
@@ -1650,6 +1650,31 @@
     "rank": 66
   },
   {
+    "asset": "dc-01",
+    "cve": "CVE-2023-4550",
+    "software": "Windows Server",
+    "fix": "Apply vendor update",
+    "fix_hours": 2,
+    "source": "background",
+    "key": "dc-01|CVE-2023-4550",
+    "base_score": 59.3,
+    "score": 59.3,
+    "breakdown": {
+      "exploitation": 17.3,
+      "severity": 15.0,
+      "asset_value": 20,
+      "exposure": 7,
+      "attack_path": 0
+    },
+    "priority": "P3",
+    "deadline": "fix within 30 days",
+    "cvss": 7.5,
+    "epss": 0.0071,
+    "in_kev": false,
+    "ransomware": false,
+    "rank": 67
+  },
+  {
     "asset": "fw-edge",
     "cve": "CVE-2024-0007",
     "software": "PAN-OS",
@@ -1672,7 +1697,7 @@
     "epss": 0.00627,
     "in_kev": false,
     "ransomware": false,
-    "rank": 67
+    "rank": 68
   },
   {
     "asset": "db-customers",
@@ -1695,31 +1720,6 @@
     "deadline": "fix within 30 days",
     "cvss": 8.0,
     "epss": 0.00656,
-    "in_kev": false,
-    "ransomware": false,
-    "rank": 68
-  },
-  {
-    "asset": "dc-01",
-    "cve": "CVE-2023-4550",
-    "software": "Windows Server",
-    "fix": "Apply vendor update",
-    "fix_hours": 2,
-    "source": "background",
-    "key": "dc-01|CVE-2023-4550",
-    "base_score": 59.2,
-    "score": 59.2,
-    "breakdown": {
-      "exploitation": 17.2,
-      "severity": 15.0,
-      "asset_value": 20,
-      "exposure": 7,
-      "attack_path": 0
-    },
-    "priority": "P3",
-    "deadline": "fix within 30 days",
-    "cvss": 7.5,
-    "epss": 0.0071,
     "in_kev": false,
     "ransomware": false,
     "rank": 69
@@ -1832,10 +1832,10 @@
     "fix_hours": 1,
     "source": "headline",
     "key": "dev-server|CVE-2023-0286",
-    "base_score": 57.4,
-    "score": 57.4,
+    "base_score": 57.5,
+    "score": 57.5,
     "breakdown": {
-      "exploitation": 32.6,
+      "exploitation": 32.7,
       "severity": 14.8,
       "asset_value": 3,
       "exposure": 7,
@@ -2382,10 +2382,10 @@
     "fix_hours": 1,
     "source": "background",
     "key": "backup-01|CVE-2023-52438",
-    "base_score": 44.7,
-    "score": 44.7,
+    "base_score": 44.8,
+    "score": 44.8,
     "breakdown": {
-      "exploitation": 6.1,
+      "exploitation": 6.2,
       "severity": 15.6,
       "asset_value": 20,
       "exposure": 3,
@@ -2732,10 +2732,10 @@
     "fix_hours": 2,
     "source": "background",
     "key": "dev-server|CVE-2021-47195",
-    "base_score": 22.1,
-    "score": 22.1,
+    "base_score": 22.2,
+    "score": 22.2,
     "breakdown": {
-      "exploitation": 5.1,
+      "exploitation": 5.2,
       "severity": 11.0,
       "asset_value": 3,
       "exposure": 3,

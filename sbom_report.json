@@ -75,7 +75,7 @@
       "fixes": 14,
       "kev": 0,
       "max_score": 70.4,
-      "risk_total": 598.0
+      "risk_total": 598.1
     },
     {
       "component": "lodash",
@@ -105,7 +105,7 @@
       "fixes": 11,
       "kev": 0,
       "max_score": 65.9,
-      "risk_total": 557.1
+      "risk_total": 557.2
     },
     {
       "component": "requests",
@@ -1526,6 +1526,28 @@
       }
     },
     {
+      "component": "cryptography",
+      "ecosystem": "PyPI",
+      "installed": "3.3.1",
+      "id": "CVE-2023-0286",
+      "osv_id": "GHSA-x4qr-2fvf-3mr5",
+      "summary": "Vulnerable OpenSSL included in cryptography wheels",
+      "cvss": 7.4,
+      "attack_vector": "NETWORK",
+      "fixed_in": "39.0.1",
+      "in_kev": false,
+      "ransomware": false,
+      "epss": 0.05217,
+      "score": 66.5,
+      "priority": "P3",
+      "breakdown": {
+        "exploitation": 32.7,
+        "severity": 14.8,
+        "asset_value": 12,
+        "exposure": 7
+      }
+    },
+    {
       "component": "jackson-databind",
       "ecosystem": "Maven",
       "installed": "2.9.10",
@@ -1565,28 +1587,6 @@
       "breakdown": {
         "exploitation": 32.4,
         "severity": 15.0,
-        "asset_value": 12,
-        "exposure": 7
-      }
-    },
-    {
-      "component": "cryptography",
-      "ecosystem": "PyPI",
-      "installed": "3.3.1",
-      "id": "CVE-2023-0286",
-      "osv_id": "GHSA-x4qr-2fvf-3mr5",
-      "summary": "Vulnerable OpenSSL included in cryptography wheels",
-      "cvss": 7.4,
-      "attack_vector": "NETWORK",
-      "fixed_in": "39.0.1",
-      "in_kev": false,
-      "ransomware": false,
-      "epss": 0.05217,
-      "score": 66.4,
-      "priority": "P3",
-      "breakdown": {
-        "exploitation": 32.6,
-        "severity": 14.8,
         "asset_value": 12,
         "exposure": 7
       }
@@ -4442,10 +4442,10 @@
       "in_kev": false,
       "ransomware": false,
       "epss": 0.00287,
-      "score": 39.0,
+      "score": 39.1,
       "priority": "P4",
       "breakdown": {
-        "exploitation": 4.8,
+        "exploitation": 4.9,
         "severity": 15.2,
         "asset_value": 12,
         "exposure": 7
